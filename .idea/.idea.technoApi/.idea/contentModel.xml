@@ -10,17 +10,21 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="User" t="Include">
+            <e p="ArticleController.cs" t="Include" />
             <e p="ProfileController.cs" t="Include" />
             <e p="UserController.cs" t="Include" />
           </e>
           <e p="ValuesController.cs" t="Include" />
+          <e p="WidgetController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="Article.cs" t="Include" />
           <e p="Context" t="Include">
             <e p="DataContext.cs" t="Include" />
           </e>
           <e p="Profile.cs" t="Include" />
           <e p="User.cs" t="Include" />
+          <e p="Widget.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

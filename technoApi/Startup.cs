@@ -25,6 +25,13 @@ namespace technoApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CORS",
+                    corsPolicyBuilder => corsPolicyBuilder.AllowAnyOrigin().AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+            });
             services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("TechnoData"));
             services.AddMvc();
         }
@@ -36,7 +43,7 @@ namespace technoApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors("CORS");
             app.UseMvc();
         }
     }

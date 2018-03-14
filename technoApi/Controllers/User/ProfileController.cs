@@ -27,6 +27,7 @@ namespace technoApi.Controllers
                     City = "Birmingham",
                     County = "West Midlands",
                     PostCode = "B15 2GQ",
+                    Mobile = "111",
                     Email = "lad.sangram@gmail.com",
                     JobTitle = "Software Developer",
                     JobType = "Contract"
