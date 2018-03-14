@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="Profile Controller">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Context/DataContext.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.deps.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.runtimeconfig.dev.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.runtimeconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.AssemblyInfo.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.AssemblyInfoInputs.cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.FileListAbsolute.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/project.assets.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/project.packagespec.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/technoApi.csproj.nuget.cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/technoApi.csproj.nuget.g.props" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/obj/technoApi.csproj.nuget.g.targets" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <marker date="1520981750160" expanded="false" signature="6:128" ph="..." />
+                <marker date="1520981750160" expanded="true" signature="161:917" ph="{...}" />
+                <marker date="1520981750160" expanded="true" signature="242:915" ph="{...}" />
+                <marker date="1520981750160" expanded="true" signature="333:407" ph="{...}" />
+                <marker date="1520981750160" expanded="true" signature="496:544" ph="{...}" />
+                <marker date="1520981750160" expanded="true" signature="641:661" ph="{...}" />
+                <marker date="1520981750160" expanded="true" signature="773:793" ph="{...}" />
+                <marker date="1520981750160" expanded="true" signature="889:909" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1520981750189" expanded="false" signature="6:255" ph="..." />
+                <marker date="1520981750189" expanded="true" signature="276:597" ph="{...}" />
+                <marker date="1520981750189" expanded="true" signature="303:595" ph="{...}" />
+                <marker date="1520981750189" expanded="true" signature="356:414" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+              <folding>
+                <marker date="1521016461639" expanded="true" signature="6:399" ph="..." />
+                <marker date="1521016461639" expanded="true" signature="420:1294" ph="{...}" />
+                <marker date="1521016461639" expanded="true" signature="447:1292" ph="{...}" />
+                <marker date="1521016461639" expanded="true" signature="506:569" ph="{...}" />
+                <marker date="1521016461639" expanded="true" signature="792:937" ph="{...}" />
+                <marker date="1521016461639" expanded="true" signature="1125:1286" ph="{...}" />
+                <marker date="1521016461639" expanded="true" signature="1172:1249" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/UserController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <marker date="1521016435236" expanded="true" signature="6:140" ph="..." />
+                <marker date="1521016435236" expanded="true" signature="173:1100" ph="{...}" />
+                <marker date="1521016435236" expanded="true" signature="252:1098" ph="{...}" />
+                <marker date="1521016435236" expanded="true" signature="365:631" ph="{...}" />
+                <marker date="1521016435236" expanded="true" signature="465:621" ph="{...}" />
+                <marker date="1521016435236" expanded="true" signature="702:770" ph="{...}" />
+                <marker date="1521016435236" expanded="true" signature="861:1092" ph="{...}" />
+                <marker date="1521016435236" expanded="true" signature="976:1039" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <marker date="1521015803250" expanded="true" signature="26:630" ph="{...}" />
+                <marker date="1521015803250" expanded="true" signature="53:628" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/ProfileController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <marker date="1521016435201" expanded="true" signature="6:140" ph="..." />
+                <marker date="1521016435201" expanded="true" signature="173:1619" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="255:1617" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="371:1126" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="474:1116" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="559:1056" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="1203:1274" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="1368:1611" ph="{...}" />
+                <marker date="1521016435201" expanded="true" signature="1492:1555" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <folding>
+                <marker date="1521016011936" expanded="true" signature="26:190" ph="{...}" />
+                <marker date="1521016011936" expanded="true" signature="50:188" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataContext.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Context/DataContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1521016435251" expanded="true" signature="72:344" ph="{...}" />
+                <marker date="1521016435251" expanded="true" signature="115:342" ph="{...}" />
+                <marker date="1521016435251" expanded="true" signature="215:235" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/technoApi/Controllers/User/UserController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Controllers/User/ProfileController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Context/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Controllers/ValuesController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/technoApi/Models/Context/UserContext.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/User/UserController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Context/DataContext.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/User/ProfileController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3026" />
+    <option name="height" value="1946" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="User" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Context" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/technoApi" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/technoApi/technoApi.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="" />
+      <created>1520981737102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520981737102</updated>
+      <workItem from="1520981739061" duration="6067000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Setup">
+      <created>1520984264419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520984264419</updated>
+    </task>
+    <task id="LOCAL-00002" summary="User Controller">
+      <created>1521015061169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521015061169</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Profile Controller">
+      <created>1521016521106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521016521106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6067000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43609023" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Setup" />
+    <MESSAGE value="User Controller" />
+    <MESSAGE value="Profile Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Profile Controller" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/technoApi/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520981750189" expanded="false" signature="6:255" ph="..." />
+            <marker date="1520981750189" expanded="true" signature="276:597" ph="{...}" />
+            <marker date="1520981750189" expanded="true" signature="303:595" ph="{...}" />
+            <marker date="1520981750189" expanded="true" signature="356:414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <marker date="1520981750160" expanded="false" signature="6:128" ph="..." />
+            <marker date="1520981750160" expanded="true" signature="161:917" ph="{...}" />
+            <marker date="1520981750160" expanded="true" signature="242:915" ph="{...}" />
+            <marker date="1520981750160" expanded="true" signature="333:407" ph="{...}" />
+            <marker date="1520981750160" expanded="true" signature="496:544" ph="{...}" />
+            <marker date="1520981750160" expanded="true" signature="641:661" ph="{...}" />
+            <marker date="1520981750160" expanded="true" signature="773:793" ph="{...}" />
+            <marker date="1520981750160" expanded="true" signature="889:909" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/dotnet/sdk/2.1.101/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="4117" column="4" lean-forward="false" selection-start-line="4117" selection-start-column="4" selection-end-line="4117" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Context/UserContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <marker date="1521016011936" expanded="true" signature="26:190" ph="{...}" />
+            <marker date="1521016011936" expanded="true" signature="50:188" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <marker date="1521015803250" expanded="true" signature="26:630" ph="{...}" />
+            <marker date="1521015803250" expanded="true" signature="53:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <marker date="1521016435236" expanded="true" signature="6:140" ph="..." />
+            <marker date="1521016435236" expanded="true" signature="173:1100" ph="{...}" />
+            <marker date="1521016435236" expanded="true" signature="252:1098" ph="{...}" />
+            <marker date="1521016435236" expanded="true" signature="365:631" ph="{...}" />
+            <marker date="1521016435236" expanded="true" signature="465:621" ph="{...}" />
+            <marker date="1521016435236" expanded="true" signature="702:770" ph="{...}" />
+            <marker date="1521016435236" expanded="true" signature="861:1092" ph="{...}" />
+            <marker date="1521016435236" expanded="true" signature="976:1039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/ProfileController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <marker date="1521016435201" expanded="true" signature="6:140" ph="..." />
+            <marker date="1521016435201" expanded="true" signature="173:1619" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="255:1617" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="371:1126" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="474:1116" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="559:1056" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="1203:1274" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="1368:1611" ph="{...}" />
+            <marker date="1521016435201" expanded="true" signature="1492:1555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <marker date="1521016461639" expanded="true" signature="6:399" ph="..." />
+            <marker date="1521016461639" expanded="true" signature="420:1294" ph="{...}" />
+            <marker date="1521016461639" expanded="true" signature="447:1292" ph="{...}" />
+            <marker date="1521016461639" expanded="true" signature="506:569" ph="{...}" />
+            <marker date="1521016461639" expanded="true" signature="792:937" ph="{...}" />
+            <marker date="1521016461639" expanded="true" signature="1125:1286" ph="{...}" />
+            <marker date="1521016461639" expanded="true" signature="1172:1249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Context/DataContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1521016435251" expanded="true" signature="72:344" ph="{...}" />
+            <marker date="1521016435251" expanded="true" signature="115:342" ph="{...}" />
+            <marker date="1521016435251" expanded="true" signature="215:235" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
