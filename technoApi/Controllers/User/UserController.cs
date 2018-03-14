@@ -9,29 +9,29 @@ namespace technoApi.Controllers
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        private readonly UserContext _userContext;
+        private readonly DataContext _dataContext;
 
-        public UserController(UserContext userContext)
+        public UserController(DataContext dataContext)
         {
-            _userContext = userContext;
+            _dataContext = dataContext;
 
-            if (_userContext.Users.Count() == 0)
+            if (_dataContext.Users.Count() == 0)
             {
-                _userContext.Users.Add(new User {UserName = "Sam", FirstName = "Sam", LastName = "Lad"});
-                _userContext.SaveChanges();
+                _dataContext.Users.Add(new User {UserName = "Sam", ProfileId = 1});
+                _dataContext.SaveChanges();
             }
         }
         
         // GET
         public IEnumerable<User> GetAllUsers()
         {
-            return _userContext.Users.ToList();
+            return _dataContext.Users.ToList();
         }
 
         [HttpGet("{id}", Name = "GetUser")]
         public IActionResult GetById(long id)
         {
-            var user = _userContext.Users.FirstOrDefault(u => u.Id == id);
+            var user = _dataContext.Users.FirstOrDefault(u => u.Id == id);
             if (user == null)
             {
                 return NotFound();

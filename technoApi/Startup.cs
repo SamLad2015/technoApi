@@ -25,7 +25,7 @@ namespace technoApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<UserContext>(opt => opt.UseInMemoryDatabase("UsersList"));
+            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("TechnoData"));
             services.AddMvc();
         }
 
