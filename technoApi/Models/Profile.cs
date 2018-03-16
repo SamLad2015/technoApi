@@ -1,4 +1,5 @@
-﻿namespace technoApi.Models
+﻿using Newtonsoft.Json;
+namespace technoApi.Models
 {
     public class Profile
     {
@@ -15,5 +16,13 @@
         public string PostCode { get; set; }
         public string JobType { get; set; }
         public string JobTitle { get; set; }
+        
+        [JsonIgnore]
+        public AppDb Db { get; set; }
+
+        public Profile(AppDb db=null)
+        {
+            Db = db;
+        }
     }
 }

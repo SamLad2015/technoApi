@@ -1,56 +1,26 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using technoApi.Models;
-using technoApi.Models.Context;
+using Microsoft.Extensions.Configuration;
+using technoApi.Queries;
 
 namespace technoApi.Controllers
 {
     [Route("api/[controller]")]
     public class ProfileController : Controller
     {
-        private readonly DataContext _dataContext;
 
-        public ProfileController(DataContext dataContext)
+        public IConfiguration Configuration { get; }
+        public ProfileController(IConfiguration configuration)
         {
-            _dataContext = dataContext;
-
-            if (_dataContext.Profiles.Count() == 0)
-            {
-                _dataContext.Profiles.Add(new Profile
-                {
-                    Title = "Mr", 
-                    FirstName = "Sam",
-                    LastName = "Lad",
-                    Address1 = "Apt 16",
-                    Address2 = "2 Madison Walk",
-                    City = "Birmingham",
-                    County = "West Midlands",
-                    PostCode = "B15 2GQ",
-                    Mobile = "111",
-                    Email = "lad.sangram@gmail.com",
-                    JobTitle = "Software Developer",
-                    JobType = "Contract"
-                });
-                _dataContext.SaveChanges();
-            }
+            Configuration = configuration;
         }
         
         // GET
-        public IEnumerable<Profile> GetAllProfiles()
+        [HttpGet]
+        public async Task<IActionResult> GetAllProfiles()
         {
-            return _dataContext.Profiles.ToList();
-        }
-
-        [HttpGet("{id}", Name = "GetProfile")]
-        public IActionResult GetById(long id)
-        {
-            var profile = _dataContext.Profiles.FirstOrDefault(p => p.Id == id);
-            if (profile == null)
-            {
-                return NotFound();
-            }
-            return new ObjectResult(profile);
+            var query = new ProfileQuery(Configuration);
+            return new OkObjectResult(await query.AllProfilesASync());
         }
     }
 }

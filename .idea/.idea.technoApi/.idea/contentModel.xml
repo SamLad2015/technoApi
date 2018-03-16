@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\app.config.transform" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlCommand.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlCommandBuilder.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlConnection.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlConnectionStringBuilder.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlDataAdapter.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlDataReader.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlException.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlHelper.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlParameter.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlParameterCollection.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\docs\MySqlTransaction.xml" t="Include" />
+    <e p="C:\Users\ladsa\.nuget\packages\mysql.data\8.0.10-rc\contentFiles\any\netcoreapp2.0\web.config.transform" t="Include" />
     <e p="C:\Users\ladsa\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_technoApi.1456825700.00" t="ExcludeRecursive" />
     <e p="C:\Users\ladsa\RiderProjects\technoApi" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="technoApi" t="IncludeRecursive">
+        <e p="AppDb.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -17,11 +31,10 @@
           <e p="ValuesController.cs" t="Include" />
           <e p="WidgetController.cs" t="Include" />
         </e>
+        <e p="docs" t="Include" />
         <e p="Models" t="Include">
           <e p="Article.cs" t="Include" />
-          <e p="Context" t="Include">
-            <e p="DataContext.cs" t="Include" />
-          </e>
+          <e p="Context" t="Include" />
           <e p="Profile.cs" t="Include" />
           <e p="User.cs" t="Include" />
           <e p="Widget.cs" t="Include" />
@@ -34,6 +47,9 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Queries" t="Include">
+          <e p="ProfileQuery.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="technoApi.csproj" t="IncludeRecursive" />
         <e p="wwwroot" t="Include" />

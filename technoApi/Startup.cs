@@ -9,7 +9,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using technoApi.Models.Context;
 
 namespace technoApi
 {
@@ -32,7 +31,7 @@ namespace technoApi
                         .AllowAnyHeader()
                         .AllowCredentials());
             });
-            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("TechnoData"));
+            services.AddTransient<AppDb>(_ => new AppDb(Configuration));
             services.AddMvc();
         }
 
