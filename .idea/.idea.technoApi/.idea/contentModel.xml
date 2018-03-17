@@ -18,7 +18,6 @@
     <e p="C:\Users\ladsa\RiderProjects\technoApi" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="technoApi" t="IncludeRecursive">
-        <e p="AppDb.cs" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -32,9 +31,19 @@
           <e p="WidgetController.cs" t="Include" />
         </e>
         <e p="docs" t="Include" />
+        <e p="IEntityBase.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IEntityBaseRepository.cs" t="Include" />
+          <e p="IRepositories.cs" t="Include" />
+          <e p="Services" t="Include">
+            <e p="IProfileService.cs" t="Include" />
+          </e>
+        </e>
         <e p="Models" t="Include">
           <e p="Article.cs" t="Include" />
-          <e p="Context" t="Include" />
+          <e p="Context" t="Include">
+            <e p="TechnoContext.cs" t="Include" />
+          </e>
           <e p="Profile.cs" t="Include" />
           <e p="User.cs" t="Include" />
           <e p="Widget.cs" t="Include" />
@@ -47,11 +56,26 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="Queries" t="Include">
-          <e p="ProfileQuery.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="EntityBaseRepository.cs" t="Include" />
+          <e p="ProfileRepository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="ProfileService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="technoApi.csproj" t="IncludeRecursive" />
+        <e p="ViewModels" t="Include">
+          <e p="Mappings" t="Include">
+            <e p="AutoMapperConfiguration.cs" t="Include" />
+          </e>
+          <e p="ProfileViewModel.cs" t="Include" />
+          <e p="UserViewModel.cs" t="Include" />
+          <e p="Validations" t="Include">
+            <e p="ProfileViewModelValidator.cs" t="Include" />
+            <e p="UserViewModelValidator.cs" t="Include" />
+          </e>
+        </e>
         <e p="wwwroot" t="Include" />
       </e>
       <e p="technoApi.sln" t="IncludeFlat" />

@@ -26,9 +26,21 @@
   "frameworks": {
     "netcoreapp2.0": {
       "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[6.2.2, )"
+        },
+        "FluentValidation.AspNetCore": {
+          "target": "Package",
+          "version": "[7.5.2, )"
+        },
         "Microsoft.AspNetCore.All": {
           "target": "Package",
           "version": "[2.0.6, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
         },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
@@ -39,6 +51,14 @@
         "MySql.Data": {
           "target": "Package",
           "version": "[8.0.10-rc, )"
+        },
+        "MySql.Data.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[8.0.10-rc, )"
+        },
+        "System.Linq": {
+          "target": "Package",
+          "version": "[4.3.0, )"
         }
       },
       "imports": [

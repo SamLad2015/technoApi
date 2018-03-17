@@ -1,26 +1,26 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using technoApi.Queries;
+using technoApi.Interfaces.Services;
+using technoApi.Models;
 
 namespace technoApi.Controllers
 {
     [Route("api/[controller]")]
     public class ProfileController : Controller
     {
-
-        public IConfiguration Configuration { get; }
-        public ProfileController(IConfiguration configuration)
+        private readonly IProfileService _profileService;
+        
+        public ProfileController(IProfileService profileService)
         {
-            Configuration = configuration;
+            _profileService = profileService;
         }
         
         // GET
         [HttpGet]
-        public async Task<IActionResult> GetAllProfiles()
+        public List<Profile> GetProfiles()
         {
-            var query = new ProfileQuery(Configuration);
-            return new OkObjectResult(await query.AllProfilesASync());
+            return _profileService.GetAllProfiles().ToList();
         }
     }
 }

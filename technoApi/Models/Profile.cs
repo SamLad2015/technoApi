@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
 namespace technoApi.Models
 {
-    public class Profile
+    public class Profile: IEntityBase
     {
-        public long Id { get; set; }
-        public string Title { get; set; }
+        public int Id { get; set; }
+        public long TitleId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
@@ -14,15 +14,7 @@ namespace technoApi.Models
         public string City { get; set; }
         public string County { get; set; }
         public string PostCode { get; set; }
-        public string JobType { get; set; }
-        public string JobTitle { get; set; }
-        
-        [JsonIgnore]
-        public AppDb Db { get; set; }
-
-        public Profile(AppDb db=null)
-        {
-            Db = db;
-        }
+        public long JobTypeId { get; set; }
+        public long JobTitleId { get; set; }
     }
 }
