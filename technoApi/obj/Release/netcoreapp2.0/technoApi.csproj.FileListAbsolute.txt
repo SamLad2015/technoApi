@@ -1,0 +1,10 @@
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\bin\Release\netcoreapp2.0\technoApi.deps.json
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\bin\Release\netcoreapp2.0\technoApi.runtimeconfig.json
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\bin\Release\netcoreapp2.0\technoApi.runtimeconfig.dev.json
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\bin\Release\netcoreapp2.0\technoApi.dll
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\bin\Release\netcoreapp2.0\technoApi.pdb
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\obj\Release\netcoreapp2.0\technoApi.csproj.CoreCompileInputs.cache
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\obj\Release\netcoreapp2.0\technoApi.AssemblyInfoInputs.cache
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\obj\Release\netcoreapp2.0\technoApi.AssemblyInfo.cs
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\obj\Release\netcoreapp2.0\technoApi.dll
+C:\Users\ladsa\RiderProjects\technoApi\technoApi\obj\Release\netcoreapp2.0\technoApi.pdb
