@@ -19,5 +19,10 @@ namespace technoApi.Services
         {
             return _profileRepository.GetAll();
         }
+
+        public Profile GetProfile(int profileId)
+        {
+            return _profileRepository.GetSingle(p => p.Id == profileId);
+        }
     }
 }

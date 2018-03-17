@@ -24,8 +24,9 @@
         <e p="Controllers" t="Include">
           <e p="User" t="Include">
             <e p="ArticleController.cs" t="Include" />
-            <e p="ProfileController.cs" t="Include" />
-            <e p="UserController.cs" t="Include" />
+            <e p="AuthController.cs" t="Include" />
+            <e p="ProfilesController.cs" t="Include" />
+            <e p="UsersController.cs" t="Include" />
           </e>
           <e p="ValuesController.cs" t="Include" />
           <e p="WidgetController.cs" t="Include" />
@@ -36,7 +37,9 @@
           <e p="IEntityBaseRepository.cs" t="Include" />
           <e p="IRepositories.cs" t="Include" />
           <e p="Services" t="Include">
+            <e p="IAuthService.cs" t="Include" />
             <e p="IProfileService.cs" t="Include" />
+            <e p="IUserService.cs" t="Include" />
           </e>
         </e>
         <e p="Models" t="Include">
@@ -59,13 +62,17 @@
         <e p="Repositories" t="Include">
           <e p="EntityBaseRepository.cs" t="Include" />
           <e p="ProfileRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="AuthService.cs" t="Include" />
           <e p="ProfileService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="technoApi.csproj" t="IncludeRecursive" />
         <e p="ViewModels" t="Include">
+          <e p="AuthViewModel.cs" t="Include" />
           <e p="Mappings" t="Include">
             <e p="AutoMapperConfiguration.cs" t="Include" />
           </e>

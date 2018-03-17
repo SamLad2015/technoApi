@@ -38,4 +38,7 @@
   <ItemGroup>
     <Compile Remove="ViewModels\Mappings\DomainToViewModelMappingProfile.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Repositories\AuthRepository.cs" />
+  </ItemGroup>
 </Project>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
@@ -45,8 +46,10 @@ namespace technoApi
                 options.UseMySQL(Configuration["ConnectionStrings:technoConnection"]);
             });
             services.AddScoped<IProfileService, ProfileService>();
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IProfileRepository, ProfileRepository>();
-            var config = new AutoMapper.MapperConfiguration(cfg =>
+            services.AddScoped<IUserRepository, UserRepository>();
+            var config = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new AutoMapperConfigurationProfile());
             });
@@ -55,6 +58,7 @@ namespace technoApi
             services.AddSingleton(mapper);
             services.AddMvc().AddFluentValidation();
             services.AddTransient<IValidator<ProfileViewModel>, ProfileViewModelValidator>();
+            services.AddTransient<IValidator<UserViewModel>, UserViewModelValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

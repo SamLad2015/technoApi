@@ -20,7 +20,7 @@ namespace technoApi.Models
             }
             
             modelBuilder.Entity<Profile>().ToTable("Profiles");
-            modelBuilder.Entity<User>().ToTable("User");
+            modelBuilder.Entity<User>().ToTable("Users");
 
             modelBuilder.Entity<User>()
                 .HasOne(a => a.Profile);

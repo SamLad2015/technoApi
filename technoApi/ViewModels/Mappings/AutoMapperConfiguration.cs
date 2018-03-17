@@ -1,4 +1,5 @@
-﻿using technoApi.Models;
+﻿using AutoMapper;
+using technoApi.Models;
 using Profile = AutoMapper.Profile;
 
 namespace technoApi.ViewModels.Mappings
@@ -12,9 +13,12 @@ namespace technoApi.ViewModels.Mappings
         protected AutoMapperConfigurationProfile(string profileName)
             : base(profileName)
         {
-            CreateMap<User, UserViewModel>()
-                .ForMember(vm => vm.ProfileName,
-                    map => map.MapFrom(u => u.Profile.FirstName + ' ' + u.Profile.FirstName));
+            Mapper.Initialize(cfg =>
+            {
+                cfg.CreateMap<User, UserViewModel>()
+                    .ForMember(vm => vm.ProfileName,
+                        map => map.MapFrom(u => u.Profile.FirstName + ' ' + u.Profile.LastName));
+            });
         }
     }
 }
