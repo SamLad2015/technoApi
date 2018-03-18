@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Title.cs" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs" afterPath="$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs" afterPath="$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Models/Profile.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Services/ProfileService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/ProfileService.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Startup.cs" afterPath="$PROJECT_DIR$/technoApi/Startup.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" afterPath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" />
-      <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -472,7 +456,7 @@
       <option name="presentableId" value="Default" />
       <updated>1520981737102</updated>
       <workItem from="1520981739061" duration="7801000" />
-      <workItem from="1521185525065" duration="49124000" />
+      <workItem from="1521185525065" duration="49195000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1520984264419</created>
@@ -530,11 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521313615375</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementing Profile VM">
+      <created>1521335122518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521335122518</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60042000" />
+    <option name="totallyTimeSpent" value="60113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -547,7 +538,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -555,8 +545,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2891845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45286292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2891845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45286292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02255639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -612,7 +602,8 @@
     <MESSAGE value="Profile Controller : Needs Improvement" />
     <MESSAGE value="added full SOLID" />
     <MESSAGE value="Implementing Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Authentication" />
+    <MESSAGE value="Implementing Profile VM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Profile VM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
