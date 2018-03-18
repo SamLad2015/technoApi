@@ -38,7 +38,10 @@
           <e p="IRepositories.cs" t="Include" />
           <e p="Services" t="Include">
             <e p="IAuthService.cs" t="Include" />
+            <e p="IJobTitleService.cs" t="Include" />
+            <e p="IJobTypeService.cs" t="Include" />
             <e p="IProfileService.cs" t="Include" />
+            <e p="ITitleService.cs" t="Include" />
             <e p="IUserService.cs" t="Include" />
           </e>
         </e>
@@ -47,7 +50,10 @@
           <e p="Context" t="Include">
             <e p="TechnoContext.cs" t="Include" />
           </e>
+          <e p="JobTitle.cs" t="Include" />
+          <e p="JobType.cs" t="Include" />
           <e p="Profile.cs" t="Include" />
+          <e p="Title.cs" t="Include" />
           <e p="User.cs" t="Include" />
           <e p="Widget.cs" t="Include" />
         </e>
@@ -61,12 +67,18 @@
         <e p="Program.cs" t="Include" />
         <e p="Repositories" t="Include">
           <e p="EntityBaseRepository.cs" t="Include" />
+          <e p="JobTitleRepository.cs" t="Include" />
+          <e p="JobTypeRepository.cs" t="Include" />
           <e p="ProfileRepository.cs" t="Include" />
+          <e p="TitleRepository.cs" t="Include" />
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
           <e p="AuthService.cs" t="Include" />
+          <e p="JobTitleService.cs" t="Include" />
+          <e p="JobTypeService.cs" t="Include" />
           <e p="ProfileService.cs" t="Include" />
+          <e p="TitleService.cs" t="Include" />
           <e p="UserService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />

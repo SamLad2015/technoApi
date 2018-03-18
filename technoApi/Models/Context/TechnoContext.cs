@@ -10,8 +10,6 @@ namespace technoApi.Models
         {
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<Profile> Profiles { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
@@ -21,9 +19,14 @@ namespace technoApi.Models
             
             modelBuilder.Entity<Profile>().ToTable("Profiles");
             modelBuilder.Entity<User>().ToTable("Users");
+            modelBuilder.Entity<Title>().ToTable("Titles");
+            modelBuilder.Entity<JobType>().ToTable("JobTypes");
+            modelBuilder.Entity<JobTitle>().ToTable("JobTitles");
 
-            modelBuilder.Entity<User>()
-                .HasOne(a => a.Profile);
+            modelBuilder.Entity<User>().HasOne(a => a.Profile);
+            modelBuilder.Entity<Profile>().HasOne(a => a.Title);
+            modelBuilder.Entity<Profile>().HasOne(a => a.JobType);
+            modelBuilder.Entity<Profile>().HasOne(a => a.JobTitle);
         }
     }
 }

@@ -47,8 +47,16 @@ namespace technoApi
             });
             services.AddScoped<IProfileService, ProfileService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ITitleService, TitleService>();
+            services.AddScoped<IJobTitleService, JobTitleService>();
+            services.AddScoped<IJobTypeService, JobTypeService>();
+            
             services.AddScoped<IProfileRepository, ProfileRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITitleRepository, TitleRepository>();
+            services.AddScoped<IJobTitleRepository, JobTitleRepository>();
+            services.AddScoped<IJobTypeRepository, JobTypeRepository>();
+            
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new AutoMapperConfigurationProfile());
