@@ -11,6 +11,6 @@ namespace technoApi.Models.Menu
         public int ParentMenuId { get; set; }
         public Menu ParentMenu { get; set; }
         public Menu[] ChildMenus { get; set; }
-        public FontAwesomeFont FontAF { get; set; }
+        public FontAwesomeFont FontASF { get; set; }
     }
 }

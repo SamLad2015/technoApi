@@ -1,12 +1,18 @@
-﻿namespace technoApi.Models.Widget
+﻿using technoApi.Models.Config;
+
+namespace technoApi.Models.Widget
 {
     public class Widget
     {
         public long Id { get; set; }
-        public int Size { get; set; }
-        public string WidgetClass { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        public int WidgetClassId { get; set; }
+        public int WidgetSizeId { get; set; }
+        public int ArticleId { get; set; }
+        public WidgetClass WidgetClass { get; set; }
+        public WidgetSize WidgetSize { get; set; }
         public Widget[] ChildWidgets { get; set; }
+        public Article.Article Article { get; set; }
     }
 }
