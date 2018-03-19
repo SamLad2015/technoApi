@@ -27,9 +27,8 @@ namespace technoApi.Controllers.User
         [HttpGet("{id}", Name = "GetUser")]
         public IActionResult Get(int id)
         {
-            Models.User.User user = _userService.GetUserById(id);
-            UserViewModel userVM = Mapper.Map<Models.User.User, UserViewModel>(user);
-            return new OkObjectResult(userVM);
+            var userVms = Mapper.Map<Models.User.User, UserViewModel>( _userService.GetUserById(id));
+            return new OkObjectResult(userVms);
         }
     }
 }

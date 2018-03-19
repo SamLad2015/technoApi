@@ -2,7 +2,7 @@
 
 namespace technoApi.Models.Menu
 {
-    public class Menu
+    public class Menu: IEntityBase
     {
         public int Id { get; set; }
         public string Title { get; set; }

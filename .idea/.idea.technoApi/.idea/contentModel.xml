@@ -22,6 +22,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="ProfileDetailed" t="Include">
+            <e p="QualificationController.cs" t="Include" />
+          </e>
           <e p="User" t="Include">
             <e p="ArticleController.cs" t="Include" />
             <e p="AuthController.cs" t="Include" />
@@ -41,9 +44,11 @@
           <e p="IRepositories.cs" t="Include" />
           <e p="Services" t="Include">
             <e p="IAuthService.cs" t="Include" />
+            <e p="IJobHistoryService.cs" t="Include" />
             <e p="IJobTitleService.cs" t="Include" />
             <e p="IJobTypeService.cs" t="Include" />
             <e p="IProfileService.cs" t="Include" />
+            <e p="IQualificationService.cs" t="Include" />
             <e p="ITitleService.cs" t="Include" />
             <e p="IUserService.cs" t="Include" />
           </e>
@@ -90,9 +95,11 @@
         <e p="Program.cs" t="Include" />
         <e p="Repositories" t="Include">
           <e p="EntityBaseRepository.cs" t="Include" />
+          <e p="JobHistoryRepository.cs" t="Include" />
           <e p="JobTitleRepository.cs" t="Include" />
           <e p="JobTypeRepository.cs" t="Include" />
           <e p="ProfileRepository.cs" t="Include" />
+          <e p="QualificationRepository.cs" t="Include" />
           <e p="TitleRepository.cs" t="Include" />
           <e p="UserRepository.cs" t="Include" />
         </e>
@@ -101,6 +108,7 @@
           <e p="JobTitleService.cs" t="Include" />
           <e p="JobTypeService.cs" t="Include" />
           <e p="ProfileService.cs" t="Include" />
+          <e p="QualificationService.cs" t="Include" />
           <e p="TitleService.cs" t="Include" />
           <e p="UserService.cs" t="Include" />
         </e>
@@ -112,9 +120,11 @@
             <e p="AutoMapperConfiguration.cs" t="Include" />
           </e>
           <e p="ProfileViewModel.cs" t="Include" />
+          <e p="QualificationViewModel.cs" t="Include" />
           <e p="UserViewModel.cs" t="Include" />
           <e p="Validations" t="Include">
             <e p="ProfileViewModelValidator.cs" t="Include" />
+            <e p="QualificationViewModelValidator.cs" t="Include" />
             <e p="UserViewModelValidator.cs" t="Include" />
           </e>
         </e>

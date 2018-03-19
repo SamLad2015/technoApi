@@ -27,10 +27,9 @@ namespace technoApi.Controllers.User
         [HttpGet("{id}", Name = "GetProfile")]
         public IActionResult Get(int id)
         {
-            Models.Profile.Profile profile = _profileService.GetProfileById(id);
+            Models.Profile.Profile profile = _profileService.GetBasicProfileById(id);
             ProfileViewModel profileVM = Mapper.Map<Models.Profile.Profile, ProfileViewModel>(profile);
             return new OkObjectResult(profileVM);
         }
-        
     }
 }

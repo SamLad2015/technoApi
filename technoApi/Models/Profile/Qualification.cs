@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 namespace technoApi.Models.Profile
 {
-    public class Qualification
+    public class Qualification: IEntityBase
     {
         public int Id { get; set; }
         [Column("qualification")]

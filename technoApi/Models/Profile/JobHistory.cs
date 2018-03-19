@@ -2,7 +2,7 @@
 
 namespace technoApi.Models.Profile
 {
-    public class JobHistory
+    public class JobHistory: IEntityBase
     {
         public int Id { get; set; }
         public string JobTitle { get; set; }

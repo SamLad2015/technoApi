@@ -8,10 +8,10 @@ namespace technoApi.Services
 {
     public class ProfileService: IProfileService
     {
-        private IProfileRepository _profileRepository;
-        private ITitleRepository _titleRepository;
-        private IJobTypeRepository _jobTypeRepository;
-        private IJobTitleRepository _jobTitleRepository;
+        private readonly IProfileRepository _profileRepository;
+        private readonly ITitleRepository _titleRepository;
+        private readonly IJobTypeRepository _jobTypeRepository;
+        private readonly IJobTitleRepository _jobTitleRepository;
 
         public ProfileService(IProfileRepository profileRepository, ITitleRepository titleRepository,
             IJobTypeRepository jobTypeRepository, IJobTitleRepository jobTitleRepository)
@@ -27,13 +27,13 @@ namespace technoApi.Services
             return _profileRepository.GetAll();
         }
 
-        public Profile GetProfileById(int profileId)
+        public Profile GetBasicProfileById(int profileId)
         {
-            Profile _profile =  _profileRepository.GetSingle(p => p.Id == profileId);
-            _profile.Title = _titleRepository.GetSingle(t => t.Id == _profile.TitleId);
-            _profile.JobType = _jobTypeRepository.GetSingle(j => j.Id == _profile.JobTypeId);
-            _profile.JobTitle = _jobTitleRepository.GetSingle(jt => jt.Id == _profile.JobTitleId);
-            return _profile;
+            var profile =  _profileRepository.GetSingle(p => p.Id == profileId);
+            profile.Title = _titleRepository.GetSingle(t => t.Id == profile.TitleId);
+            profile.JobType = _jobTypeRepository.GetSingle(j => j.Id == profile.JobTypeId);
+            profile.JobTitle = _jobTitleRepository.GetSingle(jt => jt.Id == profile.JobTitleId);
+            return profile;
         }
     }
 }

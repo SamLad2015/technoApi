@@ -2,9 +2,9 @@
 
 namespace technoApi.Models.Widget
 {
-    public class Widget
+    public class Widget: IEntityBase
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
         public int WidgetClassId { get; set; }

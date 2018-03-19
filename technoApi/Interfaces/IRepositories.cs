@@ -9,4 +9,6 @@ namespace technoApi.Repositories
     public interface ITitleRepository : IEntityBaseRepository<Title> { }
     public interface IJobTypeRepository : IEntityBaseRepository<JobType> { }
     public interface IJobTitleRepository : IEntityBaseRepository<JobTitle> { }
+    public interface IQualificationRepository : IEntityBaseRepository<Qualification> { }
+    public interface IJobHistoryRepository : IEntityBaseRepository<JobHistory> { }
 }

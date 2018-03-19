@@ -1,8 +1,8 @@
 ﻿namespace technoApi.Models.Article
 {
-    public class Article
+    public class Article: IEntityBase
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Contents { get; set; }
         public Comment[] Comments { get; set; }

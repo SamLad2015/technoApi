@@ -57,6 +57,7 @@ namespace technoApi.Models
             modelBuilder.Entity<Profile.Profile>().HasMany(a => a.JobHistories);
             //Article
             modelBuilder.Entity<Article.Article>().HasMany(a => a.Comments);
+            modelBuilder.Entity<Article.Comment>().HasOne(c => c.User);
             //Widget
             modelBuilder.Entity<Widget.Widget>().HasOne(w => w.WidgetClass);
             modelBuilder.Entity<Widget.Widget>().HasOne(w => w.WidgetSize);

@@ -1,6 +1,6 @@
 ﻿namespace technoApi.Models.Article
 {
-    public class Comment
+    public class Comment: IEntityBase
     {
         public int Id { get; set; }
         public string Comments { get; set; }
