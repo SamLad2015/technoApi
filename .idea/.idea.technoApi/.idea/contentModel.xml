@@ -31,6 +31,9 @@
           <e p="ValuesController.cs" t="Include" />
           <e p="WidgetController.cs" t="Include" />
         </e>
+        <e p="DbSetUp" t="Include">
+          <e p="dbSetUp.sql" t="Include" />
+        </e>
         <e p="docs" t="Include" />
         <e p="IEntityBase.cs" t="Include" />
         <e p="Interfaces" t="Include">
