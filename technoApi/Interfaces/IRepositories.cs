@@ -1,5 +1,6 @@
 ﻿using technoApi.Interfaces;
-using technoApi.Models;
+using technoApi.Models.User;
+using technoApi.Models.Profile;
 
 namespace technoApi.Repositories
 {

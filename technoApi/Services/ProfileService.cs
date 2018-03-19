@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using technoApi.Interfaces.Services;
-using technoApi.Models;
+using technoApi.Models.Profile;
 using technoApi.Repositories;
 
 namespace technoApi.Services

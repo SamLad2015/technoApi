@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.CodeAnalysis;
 using technoApi.Interfaces.Services;
-using technoApi.Models;
+using technoApi.Models.User;
 using technoApi.Repositories;
 
 namespace technoApi.Services

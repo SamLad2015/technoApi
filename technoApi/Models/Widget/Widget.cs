@@ -1,4 +1,4 @@
-﻿namespace technoApi.Models
+﻿namespace technoApi.Models.Widget
 {
     public class Widget
     {

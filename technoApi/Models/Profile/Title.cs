@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-namespace technoApi.Models
+namespace technoApi.Models.Profile
 {
     public class Title: IEntityBase
     {

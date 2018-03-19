@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-namespace technoApi.Models
+﻿namespace technoApi.Models.Profile
 {
     public class Profile: IEntityBase
     {
@@ -19,5 +18,7 @@ namespace technoApi.Models
         public Title Title { get; set; }
         public JobType JobType { get; set; }
         public JobTitle JobTitle { get; set; }
+        public Qualification[] Qualifications { get; set; }
+        public JobHistory[] JobHistories { get; set; }
     }
 }

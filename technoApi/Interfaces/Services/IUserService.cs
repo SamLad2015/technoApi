@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using technoApi.Models;
+using technoApi.Models.User;
 
 namespace technoApi.Interfaces.Services
 {

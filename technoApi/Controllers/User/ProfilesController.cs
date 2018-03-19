@@ -3,11 +3,9 @@ using System.Linq;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using technoApi.Interfaces.Services;
-using technoApi.Models;
 using technoApi.ViewModels;
-using Profile = technoApi.Models.Profile;
 
-namespace technoApi.Controllers
+namespace technoApi.Controllers.User
 {
     [Route("api/[controller]")]
     public class ProfilesController : Controller
@@ -21,7 +19,7 @@ namespace technoApi.Controllers
         
         // GET
         [HttpGet]
-        public List<Profile> GetProfiles()
+        public List<Models.Profile.Profile> GetProfiles()
         {
             return _profileService.GetAllProfiles().ToList();
         }
@@ -29,8 +27,8 @@ namespace technoApi.Controllers
         [HttpGet("{id}", Name = "GetProfile")]
         public IActionResult Get(int id)
         {
-            Profile profile = _profileService.GetProfileById(id);
-            ProfileViewModel profileVM = Mapper.Map<Profile, ProfileViewModel>(profile);
+            Models.Profile.Profile profile = _profileService.GetProfileById(id);
+            ProfileViewModel profileVM = Mapper.Map<Models.Profile.Profile, ProfileViewModel>(profile);
             return new OkObjectResult(profileVM);
         }
         

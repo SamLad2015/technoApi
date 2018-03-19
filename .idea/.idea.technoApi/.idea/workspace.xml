@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Article/Comment.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Config/FontAwesomeFont.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Config/WidgetClass.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Config/WidgetSize.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Menu/Menu.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/JobHistory.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs" afterPath="$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs" afterPath="$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTitleService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTitleService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTypeService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTypeService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/ITitleService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/ITitleService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/IUserService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IUserService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/Article.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Article/Article.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/JobTitle.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/JobTitle.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/JobType.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/JobType.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/Profile.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/Profile.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/Title.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/Title.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/User.cs" afterPath="$PROJECT_DIR$/technoApi/Models/User/User.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Models/Widget.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Widget/Widget.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs" afterPath="$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs" afterPath="$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs" afterPath="$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Repositories/TitleRepository.cs" afterPath="$PROJECT_DIR$/technoApi/Repositories/TitleRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Repositories/UserRepository.cs" afterPath="$PROJECT_DIR$/technoApi/Repositories/UserRepository.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Services/JobTitleService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/JobTitleService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Services/JobTypeService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/JobTypeService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Services/ProfileService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/ProfileService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Services/TitleService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/TitleService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/Services/UserService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/UserService.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" afterPath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
+      <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" />
+      <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" />
+      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csprojResolveAssemblyReference.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" />
+      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,139 +55,132 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Models/User.cs">
+      <file leaf-file-name="Comment.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Article/Comment.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="363">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <marker date="1521307089512" expanded="true" signature="63:289" ph="{...}" />
+                <marker date="1521481936705" expanded="true" signature="34:328" ph="{...}" />
+                <marker date="1521481936705" expanded="true" signature="61:326" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoMapperConfiguration.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs">
+      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Menu/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="429">
+              <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
               <folding>
-                <marker date="1521333800175" expanded="false" signature="6:83" ph="..." />
-                <marker date="1521333800175" expanded="true" signature="194:1128" ph="{...}" />
-                <marker date="1521333800175" expanded="true" signature="280:300" ph="{...}" />
-                <marker date="1521333800175" expanded="true" signature="401:1122" ph="{...}" />
-                <marker date="1521333800175" expanded="true" signature="448:1110" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileViewModelValidator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/ProfileViewModelValidator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <marker date="1521243808298" expanded="true" signature="148:321" ph="{...}" />
-                <marker date="1521243808298" expanded="true" signature="197:315" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Title.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Models/Title.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1521334934818" expanded="true" signature="116:236" ph="{...}" />
+                <marker date="1521482003364" expanded="true" signature="63:461" ph="{...}" />
+                <marker date="1521482003364" expanded="true" signature="87:459" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="JobType.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Models/JobType.cs">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobType.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
+            <state relative-caret-position="66">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding>
-                <marker date="1521334934877" expanded="true" signature="119:236" ph="{...}" />
+                <marker date="1521448668217" expanded="true" signature="87:246" ph="{...}" />
+                <marker date="1521448668217" expanded="true" signature="127:244" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-              <folding>
-                <marker date="1521334610756" expanded="false" signature="6:191" ph="..." />
-                <marker date="1521334610756" expanded="true" signature="304:1071" ph="{...}" />
-                <marker date="1521334610756" expanded="true" signature="428:488" ph="{...}" />
-                <marker date="1521334610756" expanded="true" signature="570:776" ph="{...}" />
-                <marker date="1521334610756" expanded="true" signature="870:1065" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserViewModel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/UserViewModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <marker date="1521246565367" expanded="false" signature="6:137" ph="..." />
-                <marker date="1521246565367" expanded="true" signature="222:756" ph="{...}" />
-                <marker date="1521246565367" expanded="true" signature="502:750" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileRepository.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <marker date="1521237954187" expanded="false" signature="6:76" ph="..." />
-                <marker date="1521237954187" expanded="true" signature="198:317" ph="{...}" />
-                <marker date="1521237954187" expanded="true" signature="300:311" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Services/ProfileService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-              <folding>
-                <marker date="1521334728970" expanded="false" signature="6:143" ph="..." />
-                <marker date="1521334728970" expanded="true" signature="224:1473" ph="{...}" />
-                <marker date="1521334728970" expanded="true" signature="641:867" ph="{...}" />
-                <marker date="1521334728970" expanded="true" signature="929:997" ph="{...}" />
-                <marker date="1521334728970" expanded="true" signature="1051:1467" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobTitle.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/technoApi/Models/JobTitle.cs">
+      <file leaf-file-name="Title.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/Title.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
               <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1521335071135" expanded="true" signature="78:240" ph="{...}" />
-                <marker date="1521335071135" expanded="true" signature="119:238" ph="{...}" />
+                <marker date="1521448679344" expanded="true" signature="86:246" ph="{...}" />
+                <marker date="1521448679344" expanded="true" signature="124:244" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/Profile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <marker date="1521482625261" expanded="true" signature="34:895" ph="{...}" />
+                <marker date="1521482625261" expanded="true" signature="74:893" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobHistory.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobHistory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <marker date="1521482226663" expanded="true" signature="49:444" ph="{...}" />
+                <marker date="1521482226663" expanded="true" signature="79:442" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QualificationType.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1521482318471" expanded="true" signature="34:176" ph="{...}" />
+                <marker date="1521482318471" expanded="true" signature="71:174" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Qualification.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <marker date="1521482574696" expanded="true" signature="6:65" ph="..." />
+                <marker date="1521482574696" expanded="true" signature="100:608" ph="{...}" />
+                <marker date="1521482574696" expanded="true" signature="133:606" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobTitle.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobTitle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
+              <folding>
+                <marker date="1521448663596" expanded="true" signature="86:248" ph="{...}" />
+                <marker date="1521448663596" expanded="true" signature="127:246" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Models/Article/Article.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1521481936665" expanded="true" signature="34:247" ph="{...}" />
+                <marker date="1521481936665" expanded="true" signature="61:245" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -179,23 +213,31 @@
     <setting file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/UserViewModelValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/ViewModels/UserViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Config/WidgetSize.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Config/WidgetClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CC4DDAB-CC77-416E-A712-CF2D35ABEF51/7c/6f8f8608/Mapper.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/technoApi/Services/ProfileService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Article/Comment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F1274401-4788-4ADC-9E84-E28DCDDE1719/9f/c9d93928/Profile.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Menu/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobHistory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/User/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/Models/Context/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/Article.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/Widget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/Profile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Config/FontAwesomeFont.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Article/Article.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Widget/Widget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/AppDb.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D16D35CF-F02B-4ED2-893D-5501E0442AAF/4f/17801805/ConfigureServicesBuilder.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/technoApi/Queries/ProfileQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D16D35CF-F02B-4ED2-893D-5501E0442AAF/7d/9e8e9320/WebHost.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D16D35CF-F02B-4ED2-893D-5501E0442AAF/b6/f0cbee9a/WebHostBuilder.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/Title.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/JobType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/technoApi/Models/JobTitle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/Title.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobTitle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -223,57 +265,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/technoApi/Queries/ProfileQuery.cs" />
-        <option value="$PROJECT_DIR$/technoApi/IEntityBase.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/IEntityBaseRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/EntityBaseRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/IRepositories.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Controllers/User/ProfileController.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/TechnoViewModelValidator.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/TechnoViewModelValidator.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/ProfileViewModelValidator.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/ProfileViewModel.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/UserViewModel.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/UserViewModelValidator.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/Mappings/DomainToViewModelMappingProfile.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IUserServicecs.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/UserRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IUserService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Controllers/User/UserController.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Models/User.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Services/UserService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/AuthRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Utilities/Utilities.cs" />
-        <option value="$PROJECT_DIR$/technoApi/appsettings.json" />
-        <option value="$PROJECT_DIR$/technoApi/Common/AuthModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/AuthViewModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/Controllers/User/AuthController.cs" />
         <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IAuthService.cs" />
         <option value="$PROJECT_DIR$/technoApi/Services/AuthService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" />
         <option value="$PROJECT_DIR$/technoApi/Models/JobTitles.cs" />
         <option value="$PROJECT_DIR$/technoApi/Models/JobTypes.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/TitleRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/ITitleService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTypeService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTitleService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Services/TitleService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Services/JobTypeService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Services/JobTitleService.cs" />
         <option value="$PROJECT_DIR$/technoApi/Startup.cs" />
         <option value="$PROJECT_DIR$/technoApi/Models/Profile.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Services/ProfileService.cs" />
         <option value="$PROJECT_DIR$/technoApi/Models/JobType.cs" />
         <option value="$PROJECT_DIR$/technoApi/Models/Title.cs" />
         <option value="$PROJECT_DIR$/technoApi/Models/JobTitle.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Config/FontAwesomeFont.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Config/WidgetClass.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Config/WidgetSize.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User/Profile.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IUserService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User/Profile/Profile.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User/Profile/JobTitle.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User/Profile/JobType.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User/Profile/Title.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/JobTitle.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/JobType.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/Title.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/User/User.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTitleService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTypeService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/ITitleService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Services/JobTitleService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Services/JobTypeService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Services/ProfileService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Services/TitleService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Repositories/TitleRepository.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Repositories/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Widget/Widget.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Article/Article.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Article/Comment.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Menu/Menu.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/JobHistory.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Models/Profile/Profile.cs" />
       </list>
     </option>
   </component>
@@ -317,6 +359,52 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DbSetUp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Article" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Config" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Menu" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ViewModels" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ViewModels" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Mappings" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -379,7 +467,7 @@
       <updated>1520981737102</updated>
       <workItem from="1520981739061" duration="7801000" />
       <workItem from="1521185525065" duration="51128000" />
-      <workItem from="1521444439261" duration="887000" />
+      <workItem from="1521444439261" duration="4636000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1520984264419</created>
@@ -451,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521335183493</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Db Setup file to the project">
+      <created>1521447103966</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1521447103966</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62933000" />
+    <option name="totallyTimeSpent" value="66682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,10 +570,11 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2891845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18045112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41353384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02255639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -489,7 +585,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -533,7 +628,8 @@
     <MESSAGE value="added full SOLID" />
     <MESSAGE value="Implementing Authentication" />
     <MESSAGE value="Implementing Profile VM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Profile VM" />
+    <MESSAGE value="Added Db Setup file to the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Db Setup file to the project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,53 +656,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CC4DDAB-CC77-416E-A712-CF2D35ABEF51/7c/6f8f8608/Mapper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="286" column="160" lean-forward="false" selection-start-line="286" selection-start-column="154" selection-end-line="286" selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/DomainToViewModelMappingProfile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IUserServicecs.cs" />
-    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/ProfileController.cs" />
-    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/UserController.cs" />
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/EntityBaseRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/AuthRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Utilities/Utilities.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F81850A7-D45D-453B-BC83-7D7BB5AA7A90/09/4f988ba9/IConfiguration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Common/AuthModel.cs" />
     <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/AuthViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -625,13 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -665,108 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/UserRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IAuthService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/TitleRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IUserService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTypeService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTitleService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Services/TitleService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Services/JobTypeService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/ITitleService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Services/JobTitleService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -777,34 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Services/UserService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <marker date="1521333800175" expanded="false" signature="6:83" ph="..." />
-            <marker date="1521333800175" expanded="true" signature="194:1128" ph="{...}" />
-            <marker date="1521333800175" expanded="true" signature="280:300" ph="{...}" />
-            <marker date="1521333800175" expanded="true" signature="401:1122" ph="{...}" />
-            <marker date="1521333800175" expanded="true" signature="448:1110" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/ProfileViewModelValidator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -812,16 +728,6 @@
           <folding>
             <marker date="1521243808298" expanded="true" signature="148:321" ph="{...}" />
             <marker date="1521243808298" expanded="true" signature="197:315" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Models/User.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <marker date="1521307089512" expanded="true" signature="63:289" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -845,80 +751,457 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Models/JobType.cs">
+    <entry file="file://$PROJECT_DIR$/technoApi/DbSetUp/dbSetUp.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
+        <state relative-caret-position="617">
+          <caret line="320" column="21" lean-forward="false" selection-start-line="320" selection-start-column="21" selection-end-line="320" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1521334934877" expanded="true" signature="119:236" ph="{...}" />
+            <marker date="1521159325492" expanded="true" signature="6:255" ph="..." />
+            <marker date="1521159325492" expanded="true" signature="276:597" ph="{...}" />
+            <marker date="1521159325492" expanded="true" signature="303:595" ph="{...}" />
+            <marker date="1521159325492" expanded="true" signature="356:414" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Config/FontAwesomeFont.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <marker date="1521447394834" expanded="true" signature="33:163" ph="{...}" />
+            <marker date="1521447394834" expanded="true" signature="68:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Config/WidgetClass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1521447465151" expanded="true" signature="33:160" ph="{...}" />
+            <marker date="1521447465151" expanded="true" signature="64:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Config/WidgetSize.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1521447465074" expanded="true" signature="33:151" ph="{...}" />
+            <marker date="1521447465074" expanded="true" signature="63:149" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IUserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <marker date="1521447830924" expanded="true" signature="6:62" ph="..." />
+            <marker date="1521447830924" expanded="true" signature="103:232" ph="{...}" />
+            <marker date="1521447830924" expanded="true" signature="139:230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTitleService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <marker date="1521448679670" expanded="true" signature="6:65" ph="..." />
+            <marker date="1521448679670" expanded="true" signature="106:209" ph="{...}" />
+            <marker date="1521448679670" expanded="true" signature="146:207" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IJobTypeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <marker date="1521448679293" expanded="true" signature="6:65" ph="..." />
+            <marker date="1521448679293" expanded="true" signature="106:206" ph="{...}" />
+            <marker date="1521448679293" expanded="true" signature="145:204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IProfileService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <marker date="1521448679203" expanded="true" signature="6:65" ph="..." />
+            <marker date="1521448679203" expanded="true" signature="106:253" ph="{...}" />
+            <marker date="1521448679203" expanded="true" signature="145:251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/ITitleService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding>
+            <marker date="1521448679394" expanded="true" signature="6:65" ph="..." />
+            <marker date="1521448679394" expanded="true" signature="106:200" ph="{...}" />
+            <marker date="1521448679394" expanded="true" signature="143:198" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1521448679446" expanded="true" signature="6:88" ph="..." />
+            <marker date="1521448679446" expanded="true" signature="122:503" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/ProfilesController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="32" column="74" lean-forward="false" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+        <state relative-caret-position="165">
+          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <marker date="1521449005459" expanded="true" signature="6:167" ph="..." />
+            <marker date="1521449005459" expanded="true" signature="205:1044" ph="{...}" />
+            <marker date="1521449005459" expanded="true" signature="288:1042" ph="{...}" />
+            <marker date="1521449005459" expanded="true" signature="427:493" ph="{...}" />
+            <marker date="1521449005459" expanded="true" signature="593:675" ph="{...}" />
+            <marker date="1521449005459" expanded="true" signature="772:1027" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Services/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1521449014735" expanded="true" signature="6:178" ph="..." />
+            <marker date="1521449014735" expanded="true" signature="208:978" ph="{...}" />
+            <marker date="1521449014735" expanded="true" signature="253:976" ph="{...}" />
+            <marker date="1521449014735" expanded="true" signature="479:597" ph="{...}" />
+            <marker date="1521449014735" expanded="true" signature="653:718" ph="{...}" />
+            <marker date="1521449014735" expanded="true" signature="763:970" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/Controllers/User/UsersController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="1122">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
-            <marker date="1521334610756" expanded="false" signature="6:191" ph="..." />
-            <marker date="1521334610756" expanded="true" signature="304:1071" ph="{...}" />
-            <marker date="1521334610756" expanded="true" signature="428:488" ph="{...}" />
-            <marker date="1521334610756" expanded="true" signature="570:776" ph="{...}" />
-            <marker date="1521334610756" expanded="true" signature="870:1065" ph="{...}" />
+            <marker date="1521449028934" expanded="true" signature="6:148" ph="..." />
+            <marker date="1521449028934" expanded="true" signature="186:1071" ph="{...}" />
+            <marker date="1521449028934" expanded="true" signature="266:1069" ph="{...}" />
+            <marker date="1521449028934" expanded="true" signature="390:450" ph="{...}" />
+            <marker date="1521449028934" expanded="true" signature="532:750" ph="{...}" />
+            <marker date="1521449028934" expanded="true" signature="844:1063" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs">
+    <entry file="file://$PROJECT_DIR$/technoApi/Services/JobTitleService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <marker date="1521237954187" expanded="false" signature="6:76" ph="..." />
-            <marker date="1521237954187" expanded="true" signature="198:317" ph="{...}" />
-            <marker date="1521237954187" expanded="true" signature="300:311" ph="{...}" />
+            <marker date="1521449083840" expanded="true" signature="6:181" ph="..." />
+            <marker date="1521449083840" expanded="true" signature="211:624" ph="{...}" />
+            <marker date="1521449083840" expanded="true" signature="264:622" ph="{...}" />
+            <marker date="1521449083840" expanded="true" signature="408:482" ph="{...}" />
+            <marker date="1521449083840" expanded="true" signature="546:615" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/Services/ProfileService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        <state relative-caret-position="99">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
-            <marker date="1521334728970" expanded="false" signature="6:143" ph="..." />
-            <marker date="1521334728970" expanded="true" signature="224:1473" ph="{...}" />
-            <marker date="1521334728970" expanded="true" signature="641:867" ph="{...}" />
-            <marker date="1521334728970" expanded="true" signature="929:997" ph="{...}" />
-            <marker date="1521334728970" expanded="true" signature="1051:1467" ph="{...}" />
+            <marker date="1521449083595" expanded="true" signature="6:151" ph="..." />
+            <marker date="1521449083595" expanded="true" signature="181:1483" ph="{...}" />
+            <marker date="1521449083595" expanded="true" signature="232:1481" ph="{...}" />
+            <marker date="1521449083595" expanded="true" signature="649:875" ph="{...}" />
+            <marker date="1521449083595" expanded="true" signature="937:1005" ph="{...}" />
+            <marker date="1521449083595" expanded="true" signature="1059:1475" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Models/Title.cs">
+    <entry file="file://$PROJECT_DIR$/technoApi/Services/TitleService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <marker date="1521334934818" expanded="true" signature="116:236" ph="{...}" />
+            <marker date="1521449083711" expanded="true" signature="6:181" ph="..." />
+            <marker date="1521449083711" expanded="true" signature="211:587" ph="{...}" />
+            <marker date="1521449083711" expanded="true" signature="258:585" ph="{...}" />
+            <marker date="1521449083711" expanded="true" signature="387:455" ph="{...}" />
+            <marker date="1521449083711" expanded="true" signature="513:579" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Models/JobTitle.cs">
+    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/JobTitleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521449083747" expanded="true" signature="6:55" ph="..." />
+            <marker date="1521449083747" expanded="true" signature="89:302" ph="{...}" />
+            <marker date="1521449083747" expanded="true" signature="180:300" ph="{...}" />
+            <marker date="1521449083747" expanded="true" signature="283:294" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/JobTypeRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <marker date="1521449083804" expanded="true" signature="6:108" ph="..." />
+            <marker date="1521449083804" expanded="true" signature="142:351" ph="{...}" />
+            <marker date="1521449083804" expanded="true" signature="230:349" ph="{...}" />
+            <marker date="1521449083804" expanded="true" signature="332:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/ProfileRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <marker date="1521449083777" expanded="true" signature="6:108" ph="..." />
+            <marker date="1521449083777" expanded="true" signature="142:351" ph="{...}" />
+            <marker date="1521449083777" expanded="true" signature="230:349" ph="{...}" />
+            <marker date="1521449083777" expanded="true" signature="332:343" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/TitleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <marker date="1521449083668" expanded="true" signature="6:108" ph="..." />
+            <marker date="1521449083668" expanded="true" signature="142:343" ph="{...}" />
+            <marker date="1521449083668" expanded="true" signature="224:341" ph="{...}" />
+            <marker date="1521449083668" expanded="true" signature="324:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1521449083895" expanded="true" signature="6:105" ph="..." />
+            <marker date="1521449083895" expanded="true" signature="139:336" ph="{...}" />
+            <marker date="1521449083895" expanded="true" signature="218:334" ph="{...}" />
+            <marker date="1521449083895" expanded="true" signature="317:328" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Services/JobTypeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <marker date="1521449083552" expanded="true" signature="6:181" ph="..." />
+            <marker date="1521449083552" expanded="true" signature="211:612" ph="{...}" />
+            <marker date="1521449083552" expanded="true" signature="262:610" ph="{...}" />
+            <marker date="1521449083552" expanded="true" signature="401:473" ph="{...}" />
+            <marker date="1521449083552" expanded="true" signature="535:603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Context/TechnoContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <marker date="1521448679561" expanded="true" signature="6:87" ph="..." />
+            <marker date="1521448679561" expanded="true" signature="116:1233" ph="{...}" />
+            <marker date="1521448679561" expanded="true" signature="160:1231" ph="{...}" />
+            <marker date="1521448679561" expanded="true" signature="264:284" ph="{...}" />
+            <marker date="1521448679561" expanded="true" signature="360:1225" ph="{...}" />
+            <marker date="1521448679561" expanded="true" signature="484:583" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/User/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <marker date="1521448199844" expanded="true" signature="31:304" ph="{...}" />
+            <marker date="1521448199844" expanded="true" signature="68:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding>
+            <marker date="1521449083633" expanded="true" signature="6:95" ph="..." />
+            <marker date="1521449083633" expanded="true" signature="136:1171" ph="{...}" />
+            <marker date="1521449083633" expanded="true" signature="206:1169" ph="{...}" />
+            <marker date="1521449083633" expanded="true" signature="292:312" ph="{...}" />
+            <marker date="1521449083633" expanded="true" signature="413:1163" ph="{...}" />
+            <marker date="1521449083633" expanded="true" signature="460:1151" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Widget/Widget.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1521481640955" expanded="true" signature="33:333" ph="{...}" />
+            <marker date="1521481640955" expanded="true" signature="59:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Article/Article.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1521335071135" expanded="true" signature="78:240" ph="{...}" />
-            <marker date="1521335071135" expanded="true" signature="119:238" ph="{...}" />
+            <marker date="1521481936665" expanded="true" signature="34:247" ph="{...}" />
+            <marker date="1521481936665" expanded="true" signature="61:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobTitle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
+          <folding>
+            <marker date="1521448663596" expanded="true" signature="86:248" ph="{...}" />
+            <marker date="1521448663596" expanded="true" signature="127:246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobHistory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <marker date="1521482226663" expanded="true" signature="49:444" ph="{...}" />
+            <marker date="1521482226663" expanded="true" signature="79:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1521482574696" expanded="true" signature="6:65" ph="..." />
+            <marker date="1521482574696" expanded="true" signature="100:608" ph="{...}" />
+            <marker date="1521482574696" expanded="true" signature="133:606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/JobType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <marker date="1521448668217" expanded="true" signature="87:246" ph="{...}" />
+            <marker date="1521448668217" expanded="true" signature="127:244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Menu/Menu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <marker date="1521482003364" expanded="true" signature="63:461" ph="{...}" />
+            <marker date="1521482003364" expanded="true" signature="87:459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/Profile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1521482625261" expanded="true" signature="34:895" ph="{...}" />
+            <marker date="1521482625261" expanded="true" signature="74:893" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1521482318471" expanded="true" signature="34:176" ph="{...}" />
+            <marker date="1521482318471" expanded="true" signature="71:174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Profile/Title.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1521448679344" expanded="true" signature="86:246" ph="{...}" />
+            <marker date="1521448679344" expanded="true" signature="124:244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Models/Article/Comment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1521481936705" expanded="true" signature="34:328" ph="{...}" />
+            <marker date="1521481936705" expanded="true" signature="61:326" ph="{...}" />
           </folding>
         </state>
       </provider>

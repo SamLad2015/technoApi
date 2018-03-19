@@ -49,16 +49,36 @@
           </e>
         </e>
         <e p="Models" t="Include">
-          <e p="Article.cs" t="Include" />
+          <e p="Article" t="Include">
+            <e p="Article.cs" t="Include" />
+            <e p="Comment.cs" t="Include" />
+          </e>
+          <e p="config" t="Include">
+            <e p="FontAwesomeFont.cs" t="Include" />
+            <e p="WidgetClass.cs" t="Include" />
+            <e p="WidgetSize.cs" t="Include" />
+          </e>
           <e p="Context" t="Include">
             <e p="TechnoContext.cs" t="Include" />
           </e>
-          <e p="JobTitle.cs" t="Include" />
-          <e p="JobType.cs" t="Include" />
-          <e p="Profile.cs" t="Include" />
-          <e p="Title.cs" t="Include" />
-          <e p="User.cs" t="Include" />
-          <e p="Widget.cs" t="Include" />
+          <e p="Menu" t="Include">
+            <e p="Menu.cs" t="Include" />
+          </e>
+          <e p="Profile" t="Include">
+            <e p="JobHistory.cs" t="Include" />
+            <e p="JobTitle.cs" t="Include" />
+            <e p="JobType.cs" t="Include" />
+            <e p="Profile.cs" t="Include" />
+            <e p="Qualification.cs" t="Include" />
+            <e p="QualificationType.cs" t="Include" />
+            <e p="Title.cs" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="Widget" t="Include">
+            <e p="Widget.cs" t="Include" />
+          </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
