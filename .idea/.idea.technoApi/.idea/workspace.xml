@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" />
+    <list default="true" id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="Added qualification controller">
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IQualificationTypeService.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Repositories/QualificationTypeRepository.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/Services/QualificationTypeService.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/ViewModels/QualificationTypeViewModel.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/technoApi/ViewModels/Validations/QualificationTypeViewModelValidator.cs" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/QualificationController.cs" afterPath="$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/QualificationController.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/DbSetUp/SetUpConfigData.sql" afterPath="$PROJECT_DIR$/technoApi/DbSetUp/SetUpConfigData.sql" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/IRepositories.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/Qualification.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs" afterPath="$PROJECT_DIR$/technoApi/Models/Profile/QualificationType.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Services/QualificationService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/QualificationService.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Startup.cs" afterPath="$PROJECT_DIR$/technoApi/Startup.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" afterPath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/QualificationViewModel.cs" afterPath="$PROJECT_DIR$/technoApi/ViewModels/QualificationViewModel.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" />
-      <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.FileListAbsolute.txt" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/technoApi/Services/QualificationService.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <marker date="1521576200846" expanded="true" signature="6:151" ph="..." />
                 <marker date="1521576200846" expanded="true" signature="181:1561" ph="{...}" />
@@ -518,7 +507,7 @@
       <updated>1520981737102</updated>
       <workItem from="1520981739061" duration="7801000" />
       <workItem from="1521185525065" duration="51128000" />
-      <workItem from="1521444439261" duration="24697000" />
+      <workItem from="1521444439261" duration="24811000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1520984264419</created>
@@ -625,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521534280055</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added qualification controller">
+      <created>1521576226545</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1521576226545</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86743000" />
+    <option name="totallyTimeSpent" value="86857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,15 +638,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20300752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19433199" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40138808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19433199" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02255639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -713,7 +708,8 @@
     <MESSAGE value="Added Model relationships" />
     <MESSAGE value="Added Qualifications endpoint" />
     <MESSAGE value="Fixed the issue with the mappings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the issue with the mappings" />
+    <MESSAGE value="Added qualification controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added qualification controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,7 +1387,7 @@
     <entry file="file://$PROJECT_DIR$/technoApi/Services/QualificationService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <marker date="1521576200846" expanded="true" signature="6:151" ph="..." />
             <marker date="1521576200846" expanded="true" signature="181:1561" ph="{...}" />
