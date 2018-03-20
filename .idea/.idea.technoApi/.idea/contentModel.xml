@@ -45,7 +45,9 @@
           <e p="IEntityBaseRepository.cs" t="Include" />
           <e p="IRepositories.cs" t="Include" />
           <e p="Services" t="Include">
+            <e p="IArticleService.cs" t="Include" />
             <e p="IAuthService.cs" t="Include" />
+            <e p="ICommentService.cs" t="Include" />
             <e p="IJobHistoryService.cs" t="Include" />
             <e p="IJobTitleService.cs" t="Include" />
             <e p="IJobTypeService.cs" t="Include" />
@@ -97,6 +99,8 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Repositories" t="Include">
+          <e p="ArticleRepository.cs" t="Include" />
+          <e p="CommentRepository.cs" t="Include" />
           <e p="EntityBaseRepository.cs" t="Include" />
           <e p="JobHistoryRepository.cs" t="Include" />
           <e p="JobTitleRepository.cs" t="Include" />
@@ -108,7 +112,9 @@
           <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="ArticleService.cs" t="Include" />
           <e p="AuthService.cs" t="Include" />
+          <e p="CommentService.cs" t="Include" />
           <e p="JobHistoryService.cs" t="Include" />
           <e p="JobTitleService.cs" t="Include" />
           <e p="JobTypeService.cs" t="Include" />
@@ -121,7 +127,9 @@
         <e p="Startup.cs" t="Include" />
         <e p="technoApi.csproj" t="IncludeRecursive" />
         <e p="ViewModels" t="Include">
+          <e p="ArticleViewModel.cs" t="Include" />
           <e p="AuthViewModel.cs" t="Include" />
+          <e p="CommentViewModel.cs" t="Include" />
           <e p="JobHistoryViewModel.cs" t="Include" />
           <e p="JobTypeViewModel.cs" t="Include" />
           <e p="Mappings" t="Include">
@@ -132,6 +140,8 @@
           <e p="QualificationViewModel.cs" t="Include" />
           <e p="UserViewModel.cs" t="Include" />
           <e p="Validations" t="Include">
+            <e p="ArticleViewModelValidator.cs" t="Include" />
+            <e p="CommentViewModelValidator.cs" t="Include" />
             <e p="JobHistoryViewModelValidator.cs" t="Include" />
             <e p="JobTypeViewModelValidator.cs" t="Include" />
             <e p="ProfileViewModelValidator.cs" t="Include" />

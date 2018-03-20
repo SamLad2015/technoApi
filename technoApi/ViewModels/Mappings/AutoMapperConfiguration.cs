@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using AutoMapper;
+using technoApi.Models.Article;
 using User = technoApi.Models.User;
 using Profile = technoApi.Models.Profile;
 
@@ -33,6 +35,11 @@ namespace technoApi.ViewModels.Mappings
                     map => map.MapFrom(q => q.JobType.JType));
                 //job type
                 cfg.CreateMap<Profile.JobType, JobTypeViewModel>();
+                //article
+                cfg.CreateMap<Article, ArticleViewModel>().ForMember(vm => vm.UserComments,
+                    map => map.UseValue(new List<UserViewModel>()));
+                cfg.CreateMap<Comment, CommentViewModel>().ForMember(vm => vm.UserName,
+                    map => map.MapFrom(c => c.User.Profile.FirstName + ' ' + c.User.Profile.LastName));
             });
         }
     }
