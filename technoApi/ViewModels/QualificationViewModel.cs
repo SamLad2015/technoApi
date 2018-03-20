@@ -13,7 +13,7 @@ namespace technoApi.ViewModels
         public string Organisation { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public string QualificationType { get; set; }
+        public string QualificationTypeName { get; set; }
         
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {

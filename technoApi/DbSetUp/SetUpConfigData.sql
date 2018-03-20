@@ -74,3 +74,9 @@ insert into profiles values (1, 'Sangram', 'Lad', 'lad.sangram@gmail.com', '7890
 'west mids', 'b1 4ha', 1, 1, 1);
 
 update users set profileId =1 where id = 1;a
+
+insert into qualifications values (1, 'B.E. Electricals', 'LT College of Engineering', STR_TO_DATE('1-01-2008', '%d-%m-%Y'),
+STR_TO_DATE('1-08-2012', '%d-%m-%Y'), 1 , 2);
+
+insert into qualifications values (2, 'B.E. Computers', 'DY College of Engineering', STR_TO_DATE('11-01-2005', '%d-%m-%Y'),
+STR_TO_DATE('1-3-2001', '%d-%m-%Y'), 1 , 2);

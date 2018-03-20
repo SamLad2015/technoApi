@@ -12,7 +12,6 @@ namespace technoApi.Models.Profile
         public DateTime EndDate { get; set; }
         public int ProfileId { get; set; }
         public int QualificationTypeId { get; set; }
-        public Profile Profile { get; set; }
         public QualificationType QualificationType { get; set; }
     }
 }

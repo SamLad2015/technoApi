@@ -50,6 +50,7 @@
             <e p="IJobTypeService.cs" t="Include" />
             <e p="IProfileService.cs" t="Include" />
             <e p="IQualificationService.cs" t="Include" />
+            <e p="IQualificationTypeService.cs" t="Include" />
             <e p="ITitleService.cs" t="Include" />
             <e p="IUserService.cs" t="Include" />
           </e>
@@ -101,6 +102,7 @@
           <e p="JobTypeRepository.cs" t="Include" />
           <e p="ProfileRepository.cs" t="Include" />
           <e p="QualificationRepository.cs" t="Include" />
+          <e p="QualificationTypeRepository.cs" t="Include" />
           <e p="TitleRepository.cs" t="Include" />
           <e p="UserRepository.cs" t="Include" />
         </e>
@@ -110,6 +112,7 @@
           <e p="JobTypeService.cs" t="Include" />
           <e p="ProfileService.cs" t="Include" />
           <e p="QualificationService.cs" t="Include" />
+          <e p="QualificationTypeService.cs" t="Include" />
           <e p="TitleService.cs" t="Include" />
           <e p="UserService.cs" t="Include" />
         </e>
@@ -121,10 +124,12 @@
             <e p="AutoMapperConfiguration.cs" t="Include" />
           </e>
           <e p="ProfileViewModel.cs" t="Include" />
+          <e p="QualificationTypeViewModel.cs" t="Include" />
           <e p="QualificationViewModel.cs" t="Include" />
           <e p="UserViewModel.cs" t="Include" />
           <e p="Validations" t="Include">
             <e p="ProfileViewModelValidator.cs" t="Include" />
+            <e p="QualificationTypeViewModelValidator.cs" t="Include" />
             <e p="QualificationViewModelValidator.cs" t="Include" />
             <e p="UserViewModelValidator.cs" t="Include" />
           </e>

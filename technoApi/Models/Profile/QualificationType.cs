@@ -3,6 +3,6 @@
     public class QualificationType: IEntityBase
     {
         public int Id { get; set; }
-        public string QuallificationName { get; set; }
+        public string QualificationName { get; set; }
     }
 }
