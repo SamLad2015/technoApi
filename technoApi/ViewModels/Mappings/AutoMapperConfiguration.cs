@@ -18,11 +18,9 @@ namespace technoApi.ViewModels.Mappings
                 cfg.CreateMap<User.User, UserViewModel>().ForMember(vm => vm.ProfileName,
                         map => map.MapFrom(u => u.Profile.FirstName + ' ' + u.Profile.LastName));
                 cfg.CreateMap<Profile.Profile, ProfileViewModel>().ForMember(vm => vm.Title,
-                    map => map.MapFrom(p => p.Title.UserTitle));
-                cfg.CreateMap<Profile.Profile, ProfileViewModel>().ForMember(vm => vm.JobType,
-                    map => map.MapFrom(p => p.JobType.Type));
-                cfg.CreateMap<Profile.Profile, ProfileViewModel>().ForMember(vm => vm.JobTitle,
-                    map => map.MapFrom(p => p.JobTitle.Title));
+                    map => map.MapFrom(p => p.Title.TitleText)).ForMember(vm => vm.JobTitle,
+                    map => map.MapFrom(p => p.JobTitle.JTitle)).ForMember(vm => vm.JobType,
+                    map => map.MapFrom(p => p.JobType.JType));
             });
         }
     }

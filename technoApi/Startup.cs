@@ -50,12 +50,15 @@ namespace technoApi
             services.AddScoped<ITitleService, TitleService>();
             services.AddScoped<IJobTitleService, JobTitleService>();
             services.AddScoped<IJobTypeService, JobTypeService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<IQualificationService, QualificationService>();
             
             services.AddScoped<IProfileRepository, ProfileRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ITitleRepository, TitleRepository>();
             services.AddScoped<IJobTitleRepository, JobTitleRepository>();
             services.AddScoped<IJobTypeRepository, JobTypeRepository>();
+            services.AddScoped<IQualificationRepository, QualificationRepository>();
             
             var config = new MapperConfiguration(cfg =>
             {

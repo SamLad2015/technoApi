@@ -15,7 +15,7 @@ namespace technoApi.Controllers.ProfileDetailed
             _qualificationService = qualificationService;
         }
         
-        [HttpGet("{profileId}", Name = "GetProfileQualifications")]
+        [Route("api/{profileId}/[controller]"), HttpGet("{profileId}", Name = "GetProfileQualifications")]
         public IActionResult Get(int profileId)
         {
             var qualificationVms = Mapper.Map<IEnumerable<Models.Profile.Qualification>, 

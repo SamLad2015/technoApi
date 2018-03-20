@@ -5,7 +5,7 @@ namespace technoApi.ViewModels.Validations
     {
         public QualificationViewModelValidator()
         {
-            RuleFor(Qualification => Qualification.Title).NotEmpty().WithMessage("Qualification Name cannot be empty");
+            RuleFor(qualification => qualification.Title).NotEmpty().WithMessage("Qualification Name cannot be empty");
         }
     }
 }

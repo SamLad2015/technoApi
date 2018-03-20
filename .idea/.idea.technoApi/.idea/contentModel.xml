@@ -36,6 +36,7 @@
         </e>
         <e p="DbSetUp" t="Include">
           <e p="dbSetUp.sql" t="Include" />
+          <e p="SetUpConfigData.sql" t="Include" />
         </e>
         <e p="docs" t="Include" />
         <e p="IEntityBase.cs" t="Include" />

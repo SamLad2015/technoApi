@@ -5,6 +5,6 @@ namespace technoApi.Models.Profile
     {
         public int Id { get; set; }
         [Column("title")]
-        public string UserTitle { get; set; }
+        public string TitleText { get; set; }
     }
 }

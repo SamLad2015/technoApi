@@ -6,6 +6,6 @@ namespace technoApi.Models.Profile
     {
         public int Id { get; set; }
         [Column("jobType")]
-        public string Type { get; set; }
+        public string JType { get; set; }
     }
 }
