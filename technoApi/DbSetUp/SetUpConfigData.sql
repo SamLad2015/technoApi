@@ -80,3 +80,8 @@ STR_TO_DATE('1-08-2012', '%d-%m-%Y'), 1 , 2);
 
 insert into qualifications values (2, 'B.E. Computers', 'DY College of Engineering', STR_TO_DATE('11-01-2005', '%d-%m-%Y'),
 STR_TO_DATE('1-3-2001', '%d-%m-%Y'), 1 , 2);
+
+insert into techno.jobhistory values(1, 'test job 1', STR_TO_DATE('11-01-2005', '%d-%m-%Y'),
+STR_TO_DATE('1-3-2001', '%d-%m-%Y') , 1, 1);
+insert into techno.jobhistory values(2, 'test job 2', STR_TO_DATE('11-01-2000', '%d-%m-%Y'),
+STR_TO_DATE('1-3-1998', '%d-%m-%Y') , 2, 1);

@@ -28,6 +28,11 @@ namespace technoApi.ViewModels.Mappings
                     map => map.MapFrom(q => q.QualificationType.QualificationName));
                 //qualification Type
                 cfg.CreateMap<Profile.QualificationType, QualificationTypeViewModel>();
+                //Job History
+                cfg.CreateMap<Profile.JobHistory, JobHistoryViewModel>().ForMember(vm => vm.JobTypeName,
+                    map => map.MapFrom(q => q.JobType.JType));
+                //job type
+                cfg.CreateMap<Profile.JobType, JobTypeViewModel>();
             });
         }
     }

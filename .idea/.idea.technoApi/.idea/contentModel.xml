@@ -23,6 +23,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="ProfileDetailed" t="Include">
+            <e p="JobHistoryController.cs" t="Include" />
             <e p="QualificationController.cs" t="Include" />
           </e>
           <e p="User" t="Include">
@@ -108,6 +109,7 @@
         </e>
         <e p="Services" t="Include">
           <e p="AuthService.cs" t="Include" />
+          <e p="JobHistoryService.cs" t="Include" />
           <e p="JobTitleService.cs" t="Include" />
           <e p="JobTypeService.cs" t="Include" />
           <e p="ProfileService.cs" t="Include" />
@@ -120,6 +122,8 @@
         <e p="technoApi.csproj" t="IncludeRecursive" />
         <e p="ViewModels" t="Include">
           <e p="AuthViewModel.cs" t="Include" />
+          <e p="JobHistoryViewModel.cs" t="Include" />
+          <e p="JobTypeViewModel.cs" t="Include" />
           <e p="Mappings" t="Include">
             <e p="AutoMapperConfiguration.cs" t="Include" />
           </e>
@@ -128,6 +132,8 @@
           <e p="QualificationViewModel.cs" t="Include" />
           <e p="UserViewModel.cs" t="Include" />
           <e p="Validations" t="Include">
+            <e p="JobHistoryViewModelValidator.cs" t="Include" />
+            <e p="JobTypeViewModelValidator.cs" t="Include" />
             <e p="ProfileViewModelValidator.cs" t="Include" />
             <e p="QualificationTypeViewModelValidator.cs" t="Include" />
             <e p="QualificationViewModelValidator.cs" t="Include" />
