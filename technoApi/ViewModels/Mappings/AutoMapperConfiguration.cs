@@ -42,10 +42,13 @@ namespace technoApi.ViewModels.Mappings
                     map => map.UseValue(new List<UserViewModel>()));
                 cfg.CreateMap<Comment, CommentViewModel>().ForMember(vm => vm.UserName,
                     map => map.MapFrom(c => c.User.Profile.FirstName + ' ' + c.User.Profile.LastName));
-                cfg.CreateMap<Widget, WidgetViewModel>().ForMember(vm => vm.Size,
+                cfg.CreateMap<Widget, WidgetTreeViewModel>().ForMember(vm => vm.Size,
                     map => map.MapFrom(w => w.WidgetSize.Size)).ForMember(vm => vm.WidgetClass,
                         map => map.MapFrom(w => w.WidgetClass.ClassName)).ForMember(vm => vm.ChildWidgets,
                     map => map.MapFrom(w => w.ChildWidgets));
+                cfg.CreateMap<Widget, WidgetListViewModel>().ForMember(vm => vm.Size,
+                    map => map.MapFrom(w => w.WidgetSize.Size)).ForMember(vm => vm.WidgetClass,
+                    map => map.MapFrom(w => w.WidgetClass.ClassName));
                 //menu
                 cfg.CreateMap<Menu, MenuViewModel>().ForMember(vm => vm.Label,
                     map => map.MapFrom(c => c.Title));

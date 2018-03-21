@@ -165,9 +165,11 @@
             <e p="QualificationTypeViewModelValidator.cs" t="Include" />
             <e p="QualificationViewModelValidator.cs" t="Include" />
             <e p="UserViewModelValidator.cs" t="Include" />
-            <e p="WidgetViewModelValidator.cs" t="Include" />
+            <e p="WidgetListViewModelValidator.cs" t="Include" />
+            <e p="WidgetTreeViewModelValidator.cs" t="Include" />
           </e>
-          <e p="WidgetViewModel.cs" t="Include" />
+          <e p="WidgetListViewModel.cs" t="Include" />
+          <e p="WidgetTreeViewModel.cs" t="Include" />
         </e>
         <e p="wwwroot" t="Include" />
       </e>

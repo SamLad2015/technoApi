@@ -90,7 +90,8 @@ namespace technoApi
             services.AddTransient<IValidator<JobTypeViewModel>, JobTypeViewModelValidator>();
             services.AddTransient<IValidator<ArticleViewModel>, ArticleViewModelValidator>();
             services.AddTransient<IValidator<CommentViewModel>, CommentViewModelValidator>();
-            services.AddTransient<IValidator<WidgetViewModel>, WidgetViewModelValidator>();
+            services.AddTransient<IValidator<WidgetTreeViewModel>, WidgetTreeViewModelValidator>();
+            services.AddTransient<IValidator<WidgetListViewModel>, WidgetListViewModelValidator>();
             services.AddTransient<IValidator<MenuViewModel>, MenuViewModelValidator>();
         }
 
