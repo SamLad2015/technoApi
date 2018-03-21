@@ -57,6 +57,7 @@ namespace technoApi
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICommentService, CommentService>();
             services.AddScoped<IWidgetService, WidgetService>();
+            services.AddScoped<IMenuService, MenuService>();
             
             services.AddScoped<IProfileRepository, ProfileRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
@@ -71,6 +72,7 @@ namespace technoApi
             services.AddScoped<IWidgetRepository, WidgetRepository>();
             services.AddScoped<IWidgetSizeRepository, WidgetSizeRepository>();
             services.AddScoped<IWidgetClassRepository, WidgetClassRepository>();
+            services.AddScoped<IMenuRepository, MenuRepository>();
             
             var config = new MapperConfiguration(cfg =>
             {
@@ -89,6 +91,7 @@ namespace technoApi
             services.AddTransient<IValidator<ArticleViewModel>, ArticleViewModelValidator>();
             services.AddTransient<IValidator<CommentViewModel>, CommentViewModelValidator>();
             services.AddTransient<IValidator<WidgetViewModel>, WidgetViewModelValidator>();
+            services.AddTransient<IValidator<MenuViewModel>, MenuViewModelValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

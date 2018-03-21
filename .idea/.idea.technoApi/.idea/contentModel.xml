@@ -25,6 +25,9 @@
           <e p="Article" t="Include">
             <e p="ArticleController.cs" t="Include" />
           </e>
+          <e p="Menu" t="Include">
+            <e p="MenuController.cs" t="Include" />
+          </e>
           <e p="ProfileDetailed" t="Include">
             <e p="JobHistoryController.cs" t="Include" />
             <e p="QualificationController.cs" t="Include" />
@@ -55,6 +58,7 @@
             <e p="IJobHistoryService.cs" t="Include" />
             <e p="IJobTitleService.cs" t="Include" />
             <e p="IJobTypeService.cs" t="Include" />
+            <e p="IMenuService.cs" t="Include" />
             <e p="IProfileService.cs" t="Include" />
             <e p="IQualificationService.cs" t="Include" />
             <e p="IQualificationTypeService.cs" t="Include" />
@@ -110,6 +114,7 @@
           <e p="JobHistoryRepository.cs" t="Include" />
           <e p="JobTitleRepository.cs" t="Include" />
           <e p="JobTypeRepository.cs" t="Include" />
+          <e p="MenuRepository.cs" t="Include" />
           <e p="ProfileRepository.cs" t="Include" />
           <e p="QualificationRepository.cs" t="Include" />
           <e p="QualificationTypeRepository.cs" t="Include" />
@@ -126,6 +131,7 @@
           <e p="JobHistoryService.cs" t="Include" />
           <e p="JobTitleService.cs" t="Include" />
           <e p="JobTypeService.cs" t="Include" />
+          <e p="MenuService.cs" t="Include" />
           <e p="ProfileService.cs" t="Include" />
           <e p="QualificationService.cs" t="Include" />
           <e p="QualificationTypeService.cs" t="Include" />
@@ -144,6 +150,7 @@
           <e p="Mappings" t="Include">
             <e p="AutoMapperConfiguration.cs" t="Include" />
           </e>
+          <e p="MenuViewModel.cs" t="Include" />
           <e p="ProfileViewModel.cs" t="Include" />
           <e p="QualificationTypeViewModel.cs" t="Include" />
           <e p="QualificationViewModel.cs" t="Include" />
@@ -153,6 +160,7 @@
             <e p="CommentViewModelValidator.cs" t="Include" />
             <e p="JobHistoryViewModelValidator.cs" t="Include" />
             <e p="JobTypeViewModelValidator.cs" t="Include" />
+            <e p="MenuViewModelValidator.cs" t="Include" />
             <e p="ProfileViewModelValidator.cs" t="Include" />
             <e p="QualificationTypeViewModelValidator.cs" t="Include" />
             <e p="QualificationViewModelValidator.cs" t="Include" />

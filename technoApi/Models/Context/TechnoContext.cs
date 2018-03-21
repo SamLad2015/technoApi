@@ -63,10 +63,6 @@ namespace technoApi.Models
             modelBuilder.Entity<Widget.Widget>().HasOne(w => w.WidgetSize);
             modelBuilder.Entity<Widget.Widget>().HasMany(w => w.ChildWidgets);
             modelBuilder.Entity<Widget.Widget>().HasOne(w => w.Article);
-            //Menu
-            modelBuilder.Entity<Menu.Menu>().HasOne(m => m.FontASF);
-            modelBuilder.Entity<Menu.Menu>().HasOne(m => m.ParentMenu);
-            modelBuilder.Entity<Menu.Menu>().HasMany(m => m.ChildMenus);
             //Qualification
             modelBuilder.Entity<Qualification>().HasOne(q => q.QualificationType);
             //JobHistory
