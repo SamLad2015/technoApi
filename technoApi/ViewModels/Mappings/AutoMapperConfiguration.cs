@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using AutoMapper;
 using technoApi.Models.Article;
+using technoApi.Models.Menu;
 using technoApi.Models.Widget;
 using User = technoApi.Models.User;
 using Profile = technoApi.Models.Profile;
@@ -45,6 +46,9 @@ namespace technoApi.ViewModels.Mappings
                     map => map.MapFrom(w => w.WidgetSize.Size)).ForMember(vm => vm.WidgetClass,
                         map => map.MapFrom(w => w.WidgetClass.ClassName)).ForMember(vm => vm.ChildWidgets,
                     map => map.MapFrom(w => w.ChildWidgets));
+                //menu
+                cfg.CreateMap<Menu, MenuViewModel>().ForMember(vm => vm.Label,
+                    map => map.MapFrom(c => c.Title));
             });
         }
     }

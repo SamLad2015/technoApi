@@ -97,9 +97,9 @@ insert into widgets values (2, 'test widget 2','test widget 2 contents', 3, 2, n
 insert into widgets values (3, 'test widget 3','test widget 3 contents', 2, 2, null, 2);
 
 insert into menus values(0, 'Dummy Menu', 'dummymenu', '', 0);
-insert into menus values(1, 'Home', 'home', 'fa-home', 0);
+insert into menus values(1, 'Home', '/', 'fa-home', 0);
 insert into menus values(2, 'Articles', 'articles', 'fa-newspaper-o', 0);
 insert into menus values(3, 'Admin', 'admin', 'fa-user-o', 0);
-insert into menus values(4, 'Articles', 'articles', 'fa-newspaper-o', 3);
-insert into menus values(5, 'Menus', 'menus', 'fa-list', 3);
-insert into menus values(6, 'Widgets', 'widgets', 'fa-file-code-o', 3);
+insert into menus values(4, 'Articles', 'admin/articles', 'fa-newspaper-o', 3);
+insert into menus values(5, 'Menus', 'admin/menus', 'fa-list', 3);
+insert into menus values(6, 'Widgets', 'admin/widgets', 'fa-file-code-o', 3);

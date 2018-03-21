@@ -5,7 +5,7 @@ namespace technoApi.ViewModels.Validations
     {
         public MenuViewModelValidator()
         {
-            RuleFor(menu => menu.Title).NotEmpty().WithMessage("Menu title cannot be empty");
+            RuleFor(menu => menu.Label).NotEmpty().WithMessage("Menu title cannot be empty");
         }
     }
 }
