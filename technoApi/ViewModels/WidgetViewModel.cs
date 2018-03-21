@@ -11,7 +11,7 @@ namespace technoApi.ViewModels
         public int Id { get; set; }
         public string Title { get; set; }
         public string Contents { get; set; }
-        public int WidgetSize { get; set; }
+        public int Size { get; set; }
         public string WidgetClass { get; set; }
         
         public List<WidgetViewModel> ChildWidgets { get; set; }
