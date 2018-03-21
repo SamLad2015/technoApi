@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using AutoMapper;
 using technoApi.Models.Article;
+using technoApi.Models.Widget;
 using User = technoApi.Models.User;
 using Profile = technoApi.Models.Profile;
 
@@ -40,6 +41,10 @@ namespace technoApi.ViewModels.Mappings
                     map => map.UseValue(new List<UserViewModel>()));
                 cfg.CreateMap<Comment, CommentViewModel>().ForMember(vm => vm.UserName,
                     map => map.MapFrom(c => c.User.Profile.FirstName + ' ' + c.User.Profile.LastName));
+                cfg.CreateMap<Widget, WidgetViewModel>().ForMember(vm => vm.WidgetSize,
+                    map => map.MapFrom(w => w.WidgetSize.Size)).ForMember(vm => vm.WidgetClass,
+                        map => map.MapFrom(w => w.WidgetClass.ClassName)).ForMember(vm => vm.ChildWidgets,
+                    map => map.MapFrom(w => w.ChildWidgets));
             });
         }
     }

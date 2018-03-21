@@ -22,18 +22,22 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="Article" t="Include">
+            <e p="ArticleController.cs" t="Include" />
+          </e>
           <e p="ProfileDetailed" t="Include">
             <e p="JobHistoryController.cs" t="Include" />
             <e p="QualificationController.cs" t="Include" />
           </e>
           <e p="User" t="Include">
-            <e p="ArticleController.cs" t="Include" />
             <e p="AuthController.cs" t="Include" />
             <e p="ProfilesController.cs" t="Include" />
             <e p="UsersController.cs" t="Include" />
           </e>
           <e p="ValuesController.cs" t="Include" />
-          <e p="WidgetController.cs" t="Include" />
+          <e p="Widget" t="Include">
+            <e p="WidgetController.cs" t="Include" />
+          </e>
         </e>
         <e p="DbSetUp" t="Include">
           <e p="dbSetUp.sql" t="Include" />
@@ -56,6 +60,7 @@
             <e p="IQualificationTypeService.cs" t="Include" />
             <e p="ITitleService.cs" t="Include" />
             <e p="IUserService.cs" t="Include" />
+            <e p="IWidgetService.cs" t="Include" />
           </e>
         </e>
         <e p="Models" t="Include">
@@ -110,6 +115,9 @@
           <e p="QualificationTypeRepository.cs" t="Include" />
           <e p="TitleRepository.cs" t="Include" />
           <e p="UserRepository.cs" t="Include" />
+          <e p="WidgetClassRepository.cs" t="Include" />
+          <e p="WidgetRepository.cs" t="Include" />
+          <e p="WidgetSizeRepository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
           <e p="ArticleService.cs" t="Include" />
@@ -123,6 +131,7 @@
           <e p="QualificationTypeService.cs" t="Include" />
           <e p="TitleService.cs" t="Include" />
           <e p="UserService.cs" t="Include" />
+          <e p="WidgetService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="technoApi.csproj" t="IncludeRecursive" />
@@ -148,7 +157,9 @@
             <e p="QualificationTypeViewModelValidator.cs" t="Include" />
             <e p="QualificationViewModelValidator.cs" t="Include" />
             <e p="UserViewModelValidator.cs" t="Include" />
+            <e p="WidgetViewModelValidator.cs" t="Include" />
           </e>
+          <e p="WidgetViewModel.cs" t="Include" />
         </e>
         <e p="wwwroot" t="Include" />
       </e>

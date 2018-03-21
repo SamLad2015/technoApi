@@ -90,3 +90,8 @@ insert into articles values (1 ,'test article', 'test ontents');
 
 insert into comments values(1, 'test comment 1', 1, 1);
 insert into comments values(2, 'test comment 2', 1, 1);
+
+insert into widgets values (-1, 'dummy widget','', 1, 1, null, -1);
+insert into widgets values (1, 'test widget 1','test widget 1 contents', 3, 2, null, -1);
+insert into widgets values (2, 'test widget 2','test widget 2 contents', 3, 2, null, -1);
+insert into widgets values (3, 'test widget 3','test widget 3 contents', 2, 2, null, 2);
