@@ -23,16 +23,17 @@ namespace technoApi.Controllers
         
         public IActionResult Get(bool isTree)
         {
+            var widgetData = _widgetService.GetWidgets(-1, isTree);
             if (isTree)
             {
                 var widgetVms = Mapper.Map<IEnumerable<Widget>, 
-                    IEnumerable<WidgetTreeViewModel>>(_widgetService.GetWidgetsTree(-1));
+                    IEnumerable<WidgetTreeViewModel>>(widgetData);
                 return new OkObjectResult(widgetVms);
             }
             else
             {
                 var widgetVms = Mapper.Map<IEnumerable<Widget>, 
-                    IEnumerable<WidgetListViewModel>>(_widgetService.GetAllWidgets());
+                    IEnumerable<WidgetListViewModel>>(widgetData);
                 return new OkObjectResult(widgetVms);
             }
         }

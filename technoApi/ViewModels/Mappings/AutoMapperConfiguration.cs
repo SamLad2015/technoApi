@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
 using technoApi.Models.Article;
 using technoApi.Models.Menu;
@@ -48,7 +49,8 @@ namespace technoApi.ViewModels.Mappings
                     map => map.MapFrom(w => w.ChildWidgets));
                 cfg.CreateMap<Widget, WidgetListViewModel>().ForMember(vm => vm.Size,
                     map => map.MapFrom(w => w.WidgetSize.Size)).ForMember(vm => vm.WidgetClass,
-                    map => map.MapFrom(w => w.WidgetClass.ClassName));
+                    map => map.MapFrom(w => w.WidgetClass.ClassName)).ForMember(vm => vm.ChildwidgetIds,
+                    map => map.MapFrom(w => w.ChildWidgets.Select(cw => cw.Id)));
                 //menu
                 cfg.CreateMap<Menu, MenuViewModel>().ForMember(vm => vm.Label,
                     map => map.MapFrom(c => c.Title));

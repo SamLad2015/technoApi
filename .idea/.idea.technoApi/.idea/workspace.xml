@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3726fba-17fd-4d50-b581-a11352824899" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.technoApi/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/technoApi/Controllers/Widget/WidgetController.cs" afterPath="$PROJECT_DIR$/technoApi/Controllers/Widget/WidgetController.cs" />
       <change beforePath="$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs" afterPath="$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs" />
       <change beforePath="$PROJECT_DIR$/technoApi/Services/WidgetService.cs" afterPath="$PROJECT_DIR$/technoApi/Services/WidgetService.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/Startup.cs" afterPath="$PROJECT_DIR$/technoApi/Startup.cs" />
       <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" afterPath="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
-      <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/Validations/WidgetViewModelValidator.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/technoApi/ViewModels/WidgetViewModel.cs" afterPath="" />
       <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.dll" />
       <change beforePath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/bin/Debug/netcoreapp2.0/technoApi.pdb" />
-      <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.csproj.CoreCompileInputs.cache" />
       <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.dll" />
       <change beforePath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" afterPath="$PROJECT_DIR$/technoApi/obj/Debug/netcoreapp2.0/technoApi.pdb" />
     </list>
@@ -29,19 +24,19 @@
       <file leaf-file-name="WidgetService.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technoApi/Services/WidgetService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+            <state relative-caret-position="500">
+              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
               <folding>
-                <marker date="1521670097807" expanded="false" signature="6:272" ph="..." />
-                <marker date="1521670097807" expanded="true" signature="302:2377" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="351:2375" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="831:1071" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="1144:1803" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="1313:1764" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="1374:1501" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="1863:2256" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="2006:2217" ph="{...}" />
-                <marker date="1521670097807" expanded="true" signature="2297:2369" ph="{...}" />
+                <marker date="1521679094705" expanded="false" signature="6:272" ph="..." />
+                <marker date="1521679094705" expanded="true" signature="302:2527" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="351:2525" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="831:1071" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="1154:1953" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="1459:1914" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="1520:1647" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="2013:2406" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="2156:2367" ph="{...}" />
+                <marker date="1521679094705" expanded="true" signature="2447:2519" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,13 +60,13 @@
       <file leaf-file-name="WidgetListViewModel.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/WidgetListViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
               <folding>
-                <marker date="1521670604711" expanded="false" signature="6:151" ph="..." />
-                <marker date="1521670604711" expanded="true" signature="183:819" ph="{...}" />
-                <marker date="1521670604711" expanded="true" signature="242:817" ph="{...}" />
-                <marker date="1521670604711" expanded="true" signature="557:811" ph="{...}" />
+                <marker date="1521677439780" expanded="false" signature="6:151" ph="..." />
+                <marker date="1521677439780" expanded="true" signature="183:869" ph="{...}" />
+                <marker date="1521677439780" expanded="true" signature="242:867" ph="{...}" />
+                <marker date="1521677439780" expanded="true" signature="607:861" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -80,15 +75,63 @@
       <file leaf-file-name="AutoMapperConfiguration.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="50" column="69" lean-forward="false" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
+            <state relative-caret-position="1259">
+              <caret line="52" column="80" lean-forward="false" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
               <folding>
-                <marker date="1521670816576" expanded="false" signature="6:221" ph="..." />
-                <marker date="1521670816576" expanded="true" signature="262:3008" ph="{...}" />
-                <marker date="1521670816576" expanded="true" signature="332:3006" ph="{...}" />
-                <marker date="1521670816576" expanded="true" signature="418:438" ph="{...}" />
-                <marker date="1521670816576" expanded="true" signature="539:3000" ph="{...}" />
-                <marker date="1521670816576" expanded="true" signature="586:2988" ph="{...}" />
+                <marker date="1521677439748" expanded="false" signature="6:240" ph="..." />
+                <marker date="1521677439748" expanded="true" signature="281:3143" ph="{...}" />
+                <marker date="1521677439748" expanded="true" signature="351:3141" ph="{...}" />
+                <marker date="1521677439748" expanded="true" signature="437:457" ph="{...}" />
+                <marker date="1521677439748" expanded="true" signature="558:3135" ph="{...}" />
+                <marker date="1521677439748" expanded="true" signature="605:3123" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobHistoryController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/JobHistoryController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="52" />
+              <folding>
+                <marker date="1521678131224" expanded="true" signature="6:148" ph="..." />
+                <marker date="1521678131224" expanded="true" signature="197:1270" ph="{...}" />
+                <marker date="1521678131224" expanded="true" signature="250:1268" ph="{...}" />
+                <marker date="1521678131224" expanded="true" signature="395:467" ph="{...}" />
+                <marker date="1521678131224" expanded="true" signature="635:896" ph="{...}" />
+                <marker date="1521678131224" expanded="true" signature="1030:1262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QualificationController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/QualificationController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1521678137785" expanded="true" signature="6:148" ph="..." />
+                <marker date="1521678137785" expanded="true" signature="197:1341" ph="{...}" />
+                <marker date="1521678137785" expanded="true" signature="253:1339" ph="{...}" />
+                <marker date="1521678137785" expanded="false" signature="413:491" ph="{...}" />
+                <marker date="1521678137785" expanded="false" signature="663:943" ph="{...}" />
+                <marker date="1521678137785" expanded="false" signature="1083:1333" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IWidgetService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <marker date="1521679094758" expanded="false" signature="6:64" ph="..." />
+                <marker date="1521679094758" expanded="true" signature="105:259" ph="{...}" />
+                <marker date="1521679094758" expanded="true" signature="143:257" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,20 +146,6 @@
                 <marker date="1521647378657" expanded="true" signature="66:310" ph="{...}" />
                 <marker date="1521647378657" expanded="true" signature="142:308" ph="{...}" />
                 <marker date="1521647378657" expanded="true" signature="188:302" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IWidgetService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <marker date="1521668916443" expanded="false" signature="6:64" ph="..." />
-                <marker date="1521668916443" expanded="true" signature="105:294" ph="{...}" />
-                <marker date="1521668916443" expanded="true" signature="143:292" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -143,45 +172,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WidgetListViewModelValidator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/WidgetListViewModelValidator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <marker date="1521670604679" expanded="true" signature="66:334" ph="{...}" />
-                <marker date="1521670604679" expanded="true" signature="154:332" ph="{...}" />
-                <marker date="1521670604679" expanded="true" signature="206:326" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WidgetController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/technoApi/Controllers/Widget/WidgetController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+            <state relative-caret-position="528">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
-                <marker date="1521670816635" expanded="false" signature="6:284" ph="..." />
-                <marker date="1521670816635" expanded="true" signature="317:1454" ph="{...}" />
-                <marker date="1521670816635" expanded="true" signature="398:1452" ph="{...}" />
-                <marker date="1521670816635" expanded="true" signature="531:595" ph="{...}" />
-                <marker date="1521670816635" expanded="true" signature="651:1183" ph="{...}" />
-                <marker date="1521670816635" expanded="true" signature="685:922" ph="{...}" />
-                <marker date="1521670816635" expanded="true" signature="939:1173" ph="{...}" />
-                <marker date="1521670816635" expanded="true" signature="1279:1446" ph="{...}" />
+                <marker date="1521679094652" expanded="false" signature="6:284" ph="..." />
+                <marker date="1521679094652" expanded="true" signature="317:1479" ph="{...}" />
+                <marker date="1521679094652" expanded="true" signature="398:1477" ph="{...}" />
+                <marker date="1521679094652" expanded="true" signature="531:595" ph="{...}" />
+                <marker date="1521679094652" expanded="true" signature="651:1208" ph="{...}" />
+                <marker date="1521679094652" expanded="true" signature="753:967" ph="{...}" />
+                <marker date="1521679094652" expanded="true" signature="984:1198" ph="{...}" />
+                <marker date="1521679094652" expanded="true" signature="1304:1471" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecutionContextSwitcher.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04CF0974-F8F8-4E8E-9238-D6B73BAD453D/9c/0bda356b/ExecutionContextSwitcher.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -319,7 +324,6 @@
         <option value="$PROJECT_DIR$/technoApi/ViewModels/QualificationViewModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/QualificationTypeViewModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/QualificationTypeViewModelValidator.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/QualificationController.cs" />
         <option value="$PROJECT_DIR$/technoApi/Services/QualificationService.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/JobHistoryViewModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/JobTypeViewModelValidator.cs" />
@@ -327,7 +331,6 @@
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/JobHistoryViewModelValidator.cs" />
         <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IJobHistoryService.cs" />
         <option value="$PROJECT_DIR$/technoApi/Services/JobHistoryService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/JobHistoryController.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/ArticleViewModelValidator.cs" />
         <option value="$PROJECT_DIR$/technoApi/Repositories/ArticleRepository.cs" />
         <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IArticleService.cs" />
@@ -355,14 +358,16 @@
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/MenuViewModelValidator.cs" />
         <option value="$PROJECT_DIR$/technoApi/DbSetUp/SetUpConfigData.sql" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/WidgetViewModel.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs" />
-        <option value="$PROJECT_DIR$/technoApi/Services/WidgetService.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/WidgetViewModelValidator.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Validations/WidgetListViewModelValidator.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/WidgetTreeViewModel.cs" />
-        <option value="$PROJECT_DIR$/technoApi/ViewModels/WidgetListViewModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/Startup.cs" />
+        <option value="$PROJECT_DIR$/technoApi/ViewModels/WidgetListViewModel.cs" />
         <option value="$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/JobHistoryController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/QualificationController.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs" />
+        <option value="$PROJECT_DIR$/technoApi/Services/WidgetService.cs" />
         <option value="$PROJECT_DIR$/technoApi/Controllers/Widget/WidgetController.cs" />
       </list>
     </option>
@@ -413,6 +418,13 @@
               <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="technoApi (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="technoApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ProfileDetailed" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -528,7 +540,7 @@
       <workItem from="1520981739061" duration="7801000" />
       <workItem from="1521185525065" duration="51128000" />
       <workItem from="1521444439261" duration="41080000" />
-      <workItem from="1521629830069" duration="22251000" />
+      <workItem from="1521629830069" duration="29403000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Setup">
       <created>1520984264419</created>
@@ -712,11 +724,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521660059682</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added widget list view model">
+      <created>1521670922217</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1521670922217</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125377000" />
+    <option name="totallyTimeSpent" value="132529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,12 +748,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21052632" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38519377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19433199" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.02255639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -744,7 +764,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35164836" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3487565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4384037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -806,11 +826,12 @@
     <MESSAGE value="Added widgets endpoints" />
     <MESSAGE value="Added Menu endpoints" />
     <MESSAGE value="corrected Menu endpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected Menu endpoints" />
+    <MESSAGE value="added widget list view model" />
+    <option name="LAST_COMMIT_MESSAGE" value="added widget list view model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="40" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="DotNetProject">
@@ -848,20 +869,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/technoApi/Repositories/JobHistoryRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Services/JobTypeService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/Services/CommentService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1141,18 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/MenuViewModelValidator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding>
-            <marker date="1521647378657" expanded="true" signature="66:310" ph="{...}" />
-            <marker date="1521647378657" expanded="true" signature="142:308" ph="{...}" />
-            <marker date="1521647378657" expanded="true" signature="188:302" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/QualificationViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1295,37 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <marker date="1521668916443" expanded="false" signature="6:64" ph="..." />
-            <marker date="1521668916443" expanded="true" signature="105:294" ph="{...}" />
-            <marker date="1521668916443" expanded="true" signature="143:292" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/Services/WidgetService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
-          <folding>
-            <marker date="1521670097807" expanded="false" signature="6:272" ph="..." />
-            <marker date="1521670097807" expanded="true" signature="302:2377" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="351:2375" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="831:1071" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="1144:1803" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="1313:1764" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="1374:1501" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="1863:2256" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="2006:2217" ph="{...}" />
-            <marker date="1521670097807" expanded="true" signature="2297:2369" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/WidgetViewModelValidator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1342,32 +1306,6 @@
             <marker date="1521670604679" expanded="true" signature="66:334" ph="{...}" />
             <marker date="1521670604679" expanded="true" signature="154:332" ph="{...}" />
             <marker date="1521670604679" expanded="true" signature="206:326" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/WidgetTreeViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <marker date="1521670604653" expanded="false" signature="6:151" ph="..." />
-            <marker date="1521670604653" expanded="true" signature="183:950" ph="{...}" />
-            <marker date="1521670604653" expanded="true" signature="242:948" ph="{...}" />
-            <marker date="1521670604653" expanded="true" signature="688:942" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/WidgetListViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1521670604711" expanded="false" signature="6:151" ph="..." />
-            <marker date="1521670604711" expanded="true" signature="183:819" ph="{...}" />
-            <marker date="1521670604711" expanded="true" signature="242:817" ph="{...}" />
-            <marker date="1521670604711" expanded="true" signature="557:811" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1391,34 +1329,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/WidgetTreeViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="21" column="63" lean-forward="false" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <folding>
+            <marker date="1521670604653" expanded="false" signature="6:151" ph="..." />
+            <marker date="1521670604653" expanded="true" signature="183:950" ph="{...}" />
+            <marker date="1521670604653" expanded="true" signature="242:948" ph="{...}" />
+            <marker date="1521670604653" expanded="true" signature="688:942" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Validations/MenuViewModelValidator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+          <folding>
+            <marker date="1521647378657" expanded="true" signature="66:310" ph="{...}" />
+            <marker date="1521647378657" expanded="true" signature="142:308" ph="{...}" />
+            <marker date="1521647378657" expanded="true" signature="188:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/WidgetListViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <marker date="1521677439780" expanded="false" signature="6:151" ph="..." />
+            <marker date="1521677439780" expanded="true" signature="183:869" ph="{...}" />
+            <marker date="1521677439780" expanded="true" signature="242:867" ph="{...}" />
+            <marker date="1521677439780" expanded="true" signature="607:861" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/ViewModels/Mappings/AutoMapperConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="50" column="69" lean-forward="false" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
+        <state relative-caret-position="1259">
+          <caret line="52" column="80" lean-forward="false" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
           <folding>
-            <marker date="1521670816576" expanded="false" signature="6:221" ph="..." />
-            <marker date="1521670816576" expanded="true" signature="262:3008" ph="{...}" />
-            <marker date="1521670816576" expanded="true" signature="332:3006" ph="{...}" />
-            <marker date="1521670816576" expanded="true" signature="418:438" ph="{...}" />
-            <marker date="1521670816576" expanded="true" signature="539:3000" ph="{...}" />
-            <marker date="1521670816576" expanded="true" signature="586:2988" ph="{...}" />
+            <marker date="1521677439748" expanded="false" signature="6:240" ph="..." />
+            <marker date="1521677439748" expanded="true" signature="281:3143" ph="{...}" />
+            <marker date="1521677439748" expanded="true" signature="351:3141" ph="{...}" />
+            <marker date="1521677439748" expanded="true" signature="437:457" ph="{...}" />
+            <marker date="1521677439748" expanded="true" signature="558:3135" ph="{...}" />
+            <marker date="1521677439748" expanded="true" signature="605:3123" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/JobHistoryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="52" />
+          <folding>
+            <marker date="1521678131224" expanded="true" signature="6:148" ph="..." />
+            <marker date="1521678131224" expanded="true" signature="197:1270" ph="{...}" />
+            <marker date="1521678131224" expanded="true" signature="250:1268" ph="{...}" />
+            <marker date="1521678131224" expanded="true" signature="395:467" ph="{...}" />
+            <marker date="1521678131224" expanded="true" signature="635:896" ph="{...}" />
+            <marker date="1521678131224" expanded="true" signature="1030:1262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Controllers/ProfileDetailed/QualificationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1521678137785" expanded="true" signature="6:148" ph="..." />
+            <marker date="1521678137785" expanded="true" signature="197:1341" ph="{...}" />
+            <marker date="1521678137785" expanded="true" signature="253:1339" ph="{...}" />
+            <marker date="1521678137785" expanded="false" signature="413:491" ph="{...}" />
+            <marker date="1521678137785" expanded="false" signature="663:943" ph="{...}" />
+            <marker date="1521678137785" expanded="false" signature="1083:1333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Interfaces/Services/IWidgetService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <marker date="1521679094758" expanded="false" signature="6:64" ph="..." />
+            <marker date="1521679094758" expanded="true" signature="105:259" ph="{...}" />
+            <marker date="1521679094758" expanded="true" signature="143:257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/technoApi/Services/WidgetService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <marker date="1521679094705" expanded="false" signature="6:272" ph="..." />
+            <marker date="1521679094705" expanded="true" signature="302:2527" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="351:2525" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="831:1071" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="1154:1953" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="1459:1914" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="1520:1647" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="2013:2406" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="2156:2367" ph="{...}" />
+            <marker date="1521679094705" expanded="true" signature="2447:2519" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/technoApi/Controllers/Widget/WidgetController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+        <state relative-caret-position="528">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
-            <marker date="1521670816635" expanded="false" signature="6:284" ph="..." />
-            <marker date="1521670816635" expanded="true" signature="317:1454" ph="{...}" />
-            <marker date="1521670816635" expanded="true" signature="398:1452" ph="{...}" />
-            <marker date="1521670816635" expanded="true" signature="531:595" ph="{...}" />
-            <marker date="1521670816635" expanded="true" signature="651:1183" ph="{...}" />
-            <marker date="1521670816635" expanded="true" signature="685:922" ph="{...}" />
-            <marker date="1521670816635" expanded="true" signature="939:1173" ph="{...}" />
-            <marker date="1521670816635" expanded="true" signature="1279:1446" ph="{...}" />
+            <marker date="1521679094652" expanded="false" signature="6:284" ph="..." />
+            <marker date="1521679094652" expanded="true" signature="317:1479" ph="{...}" />
+            <marker date="1521679094652" expanded="true" signature="398:1477" ph="{...}" />
+            <marker date="1521679094652" expanded="true" signature="531:595" ph="{...}" />
+            <marker date="1521679094652" expanded="true" signature="651:1208" ph="{...}" />
+            <marker date="1521679094652" expanded="true" signature="753:967" ph="{...}" />
+            <marker date="1521679094652" expanded="true" signature="984:1198" ph="{...}" />
+            <marker date="1521679094652" expanded="true" signature="1304:1471" ph="{...}" />
           </folding>
         </state>
       </provider>

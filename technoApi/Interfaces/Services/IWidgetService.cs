@@ -5,8 +5,7 @@ namespace technoApi.Interfaces.Services
 {
     public interface IWidgetService
     {
-        IEnumerable<Widget> GetWidgetsTree(int parentId);
-        IEnumerable<Widget> GetAllWidgets();
+        IEnumerable<Widget> GetWidgets(int parentId, bool? isTree);
         Widget GetWidget(int id);
     }
 }

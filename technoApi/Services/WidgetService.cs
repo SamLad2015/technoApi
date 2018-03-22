@@ -26,9 +26,11 @@ namespace technoApi.Services
             _widgetClassRepository = widgetClassRepository;
         }
         
-        public IEnumerable<Widget> GetWidgetsTree(int parentId)
+        public IEnumerable<Widget> GetWidgets(int parentId, bool? isTree)
         {
-            var widgets = _widgetRepository.FindBy(w => w.ParentId == parentId && w.Id > 0).ToList();
+            var widgets = (isTree.HasValue && isTree.Value) || parentId > -1
+                ? _widgetRepository.FindBy(w => w.ParentId == parentId && w.Id > 0).ToList()
+                : _widgetRepository.FindBy(w => w.Id > 0).ToList();
             
             foreach (var widget in widgets)
             {
@@ -39,7 +41,7 @@ namespace technoApi.Services
 
                 widget.WidgetSize = _widgetSizeRepository.GetSingle(widget.WidgetSizeId);
                 widget.WidgetClass = _widgetClassRepository.GetSingle(widget.WidgetClassId);
-                widget.ChildWidgets = GetWidgetsTree(widget.Id);
+                widget.ChildWidgets = GetWidgets(widget.Id, isTree);
             }
 
             return widgets;
