@@ -49,7 +49,7 @@ namespace technoApi.ViewModels.Mappings
                     map => map.MapFrom(w => w.ChildWidgets));
                 cfg.CreateMap<Widget, WidgetListViewModel>().ForMember(vm => vm.Size,
                     map => map.MapFrom(w => w.WidgetSize.Size)).ForMember(vm => vm.WidgetClass,
-                    map => map.MapFrom(w => w.WidgetClass.ClassName)).ForMember(vm => vm.ChildwidgetIds,
+                    map => map.MapFrom(w => w.WidgetClass.ClassName)).ForMember(vm => vm.ChildWidgetIds,
                     map => map.MapFrom(w => w.ChildWidgets.Select(cw => cw.Id)));
                 //menu
                 cfg.CreateMap<Menu, MenuViewModel>().ForMember(vm => vm.Label,
